@@ -1,0 +1,167 @@
+@import "nib"
+@import "fonts.styl"
+
+//Google Fonts PT Sans Narrow
+sansNarrow()
+	font-family: 'PT Sans Narrow', sans-serif !important
+	
+/**
+* Color Swatches 
+* http://bootflat.github.io/documentation.html
+*/
+colorAqua1 = #4FC1E9
+colorAqua2 = #3BAFDA
+
+colorBitterSweet1 = #FC6E51
+colorBitterSweet2 = #E9573F
+
+colorBlueJeans1 = #5D9CEC
+colorBlueJeans2 = #4A89DC
+
+colorDarkGray1 = #656D78
+colorDarkGray2 = #434A54
+
+colorGrapeFruit1 = #ED5565
+colorGrapeFruit2 = #DA4453
+
+colorGrass1 = #A0D468
+colorGrass2 = #8CC152
+
+colorLavender1 = #AC92EC
+colorLavender2 = #967ADC
+
+colorLigthGray1 = #F5F7FA
+colorLigthGray2 = #E6E9ED
+
+colorMediumGray1 = #CCD1D9
+colorMediumGray2 = #AAB2BD
+
+colorMint1 = #48CFAD
+colorMint2 = #37BC9B
+
+colorPink1 = #EC87C0
+colorPink2 = #D770AD
+
+colorCiamsa = #007736
+colorCiamsa2 = #70A53B
+
+colorGrayCiamsa = #3D3D3D
+
+colorSunFlower1 = #FFCE54
+colorSunFlower2 = #F6BB42
+colorSunFlower3 = #8a6d3b
+
+/** 
+*Functions 
+*/
+	
+
+/** Create styles for the buttons **/
+createBtnColor(bgColor1, bgColor2, colorFont1, colorFont2)
+	background-color bgColor1
+	color colorFont1 
+	&:hover
+		background-color bgColor2
+		color colorFont2 
+
+/** Create styles for the alerts **/
+createAlerts(bgColor, borderColor, colorFont, colorLink)
+	background-color bgColor
+	border borderColor
+	color colorFont
+	a
+		color colorLink
+		&:hover
+			color colorFont
+			text-decoration underline
+
+createIconColor(colorIcon)
+	color colorIcon
+	
+/**
+* Tags 
+*/
+
+body
+	sansNarrow()
+	font-size 16px
+	color colorGrayCiamsa
+footer 
+	background colorCiamsa
+	bottom 0
+	color white
+	padding-top 0.6em
+
+h1
+	font-weight 500
+	font-size 2em
+	line-height 0.9
+nav 
+	padding-top 1em
+
+	
+/****
+ * Alerts
+ */
+ 
+.successful
+ 	createAlerts(colorGrass1, colorGrass2, colorGrass2, white)
+	
+.notice
+	createAlerts(colorSunFlower1, colorSunFlower2, colorSunFlower3, white )
+
+.danger
+	createAlerts(colorGrapeFruit1, colorGrapeFruit2, colorGrapeFruit2, white )
+
+.info
+	createAlerts(colorAqua1, colorAqua2, colorAqua2, white )
+	
+/****
+ * Buttons
+ */
+.btn
+	font-size 1em
+	font-weight bold
+	border-radius 1em
+	
+.btn-ciamsa
+	createBtnColor(colorCiamsa,colorCiamsa2, white, white )
+
+.btn-grapefruit
+	createBtnColor(colorGrapeFruit1,colorGrapeFruit2, white, white )
+
+/**
+* Colors 
+*/
+.color-ciamsa
+	color colorCiamsa
+.color-ciamsa2
+	color colorCiamsa2
+
+
+/**
+* Custom 
+*/
+ul
+	&.list-logo
+		img
+			width 10em
+.col-centered
+	float none
+	display block
+	margin 0 auto
+
+.wrapper-step-one
+	background url('../img/bg_sky.png') no-repeat white top center fixed
+	background-size cover
+	height 100%
+	.content
+		margin-top 4em
+	.header-image
+		margin-top 3em
+		.btn
+			font-size 1.1em
+			padding 0.2em 2.5em
+	.bottom
+		margin-top 4em
+		
