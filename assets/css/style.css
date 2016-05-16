@@ -1,0 +1,254 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?nogsko");
+  src: url("fonts/icomoon.eot?nogsko#iefix") format('embedded-opentype'), url("fonts/icomoon.ttf?nogsko") format('truetype'), url("fonts/icomoon.woff?nogsko") format('woff'), url("fonts/icomoon.svg?nogsko#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+/* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+/* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-back:before {
+  content: "\e904";
+}
+.icon-user:before {
+  content: "\e900";
+}
+.icon-chevron-left:before {
+  content: "\f0a4";
+}
+.icon-chevron-right:before {
+  content: "\f078";
+}
+.icon-home:before {
+  content: "\e901";
+}
+.icon-cancel-circle:before {
+  content: "\e902";
+}
+.icon-filter:before {
+  content: "\e903";
+}
+/**
+* Color Swatches 
+* http://bootflat.github.io/documentation.html
+*/
+/** 
+*Functions 
+*/
+/** Create styles for the buttons **/
+/** Create styles for the alerts **/
+/**
+* Tags 
+*/
+body {
+  font-family: 'PT Sans Narrow', sans-serif !important;
+  font-size: 16px;
+  color: #3d3d3d;
+}
+footer {
+  background: #007736;
+  bottom: 0;
+  color: #fff;
+  padding-top: 0.6em;
+}
+h1 {
+  font-weight: 500;
+  font-size: 2.2em;
+  line-height: 0.9;
+  margin-top: -0.5em;
+}
+h1 span {
+  display: block;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+h1 .small {
+  color: #3d3d3d;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin-top: 0.1em;
+}
+nav {
+  padding-top: 1em;
+}
+/****
+ * Alerts
+ */
+.successful,
+createAlerts(colorGrass1,
+colorGrass2,
+white),
+.notice {
+  background-color: #ffce54;
+  border: 1px solid #f6bb42;
+  color: #8a6d3b;
+}
+.successful a,
+createAlerts(colorGrass1 a,
+colorGrass2 a,
+white) a,
+.notice a {
+  color: #fff;
+}
+.successful a:hover,
+createAlerts(colorGrass1 a:hover,
+colorGrass2 a:hover,
+white) a:hover,
+.notice a:hover {
+  color: #8a6d3b;
+  text-decoration: underline;
+}
+.danger {
+  background-color: #ed5565;
+  border: 1px solid #da4453;
+  color: #da4453;
+}
+.danger a {
+  color: #fff;
+}
+.danger a:hover {
+  color: #da4453;
+  text-decoration: underline;
+}
+.info {
+  background-color: #4fc1e9;
+  border: 1px solid #3bafda;
+  color: #3bafda;
+}
+.info a {
+  color: #fff;
+}
+.info a:hover {
+  color: #3bafda;
+  text-decoration: underline;
+}
+.alert-floating {
+  display: none;
+  left: 50%;
+  margin-left: -10em;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 3em;
+  width: 20em;
+  z-index: 9999;
+}
+/****
+ * Buttons
+ */
+.button {
+  font-size: 1em;
+  font-weight: bold;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  padding: 0.4em 1em;
+}
+.btn-ciamsa {
+  background-color: #70a53b;
+  color: #fff;
+}
+.btn-ciamsa:hover {
+  background-color: colorCiamsa1;
+  color: #fff;
+}
+.btn-grapefruit {
+  background-color: #ed5565;
+  color: #fff;
+}
+.btn-grapefruit:hover {
+  background-color: #da4453;
+  color: #fff;
+}
+.btn-sunflower {
+  background-color: #f6bb42;
+  color: #fff;
+}
+.btn-sunflower:hover {
+  background-color: #8a6d3b;
+  color: #fff;
+}
+.btn-aqua {
+  background-color: #4fc1e9;
+  color: #fff;
+}
+.btn-aqua:hover {
+  background-color: #3bafda;
+  color: #fff;
+}
+/**
+* Colors 
+*/
+.color-ciamsa {
+  color: #007736;
+}
+.color-ciamsa2 {
+  color: #70a53b;
+}
+/**
+* Custom 
+*/
+ul {
+  list-style: none;
+}
+ul.list-logo img {
+  width: 10em;
+}
+.wrapper-step {
+  background: url("../img/bg_sky.png") no-repeat #fff top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.wrapper-step .bottom {
+  margin-top: 4em;
+}
+.wrapper-step .content {
+  margin-top: 4em;
+}
+.wrapper-step .header-image {
+  margin-top: 3em;
+}
+.wrapper-step-one {
+  background: url("../img/bg_sky.png") no-repeat #fff top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.wrapper-step-one .bottom {
+  margin-top: 4em;
+}
+.wrapper-step-one .content {
+  margin-top: 5em;
+}
+.wrapper-step-one .content h2 {
+  color: #70a53b;
+  line-height: 1;
+}
+.wrapper-step-one .content h2 span {
+  display: block;
+}
+.wrapper-step-one .content h2 span.step {
+  color: #b0c600;
+  font-weight: bold;
+  font-size: 0.6em;
+}
+.wrapper-step-one .content h2 span.textline {
+  color: #3d3d3d;
+  display: block;
+  font-size: 0.6em;
+}
+.wrapper-step-one .header-image {
+  margin-top: 3em;
+}
