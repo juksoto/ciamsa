@@ -11,7 +11,7 @@ if ($result = $mysqli -> query ($sql) ) {
             ?>
             <li class ="column text-center" >
                 <a href="step-three.php?tipo=<?=$tipo ?>&etapa=<?= $R['id'] ?>">
-                    <img src="<?= $R['logo'] ?>" alt="<?= $R['nombre_product'] ?>"">
+                    <img src="<?= $R['logo'] ?>" alt="<?= $R['nombre_producto'] ?>"">
                 </a>
             </li>
             <?php

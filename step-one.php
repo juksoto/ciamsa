@@ -17,7 +17,7 @@
 			<section class="row text-small-only-center">
 				<article class="small-12 medium-3 column ">
 					<a href="">
-						<img src="images/logo-ciamsa.png" alt="" width="180px">
+						<img src="images/logo-ciamsa.png" alt="" width="180px" class ="logo">
 					</a>
 				</article>
 				<section class="small-12 medium-9 column text-medium-right btn-header">

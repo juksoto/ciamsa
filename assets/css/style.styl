@@ -70,6 +70,7 @@ createAlerts(bgColor, borderColor, colorFont, colorLink)
 	background-color bgColor
 	border borderColor
 	color colorFont
+	padding 0.5em 
 	a
 		color colorLink
 		&:hover
@@ -124,7 +125,7 @@ nav
 	createAlerts(colorSunFlower1, colorSunFlower2, colorSunFlower3, white )
 
 .danger
-	createAlerts(colorGrapeFruit1, colorGrapeFruit2, colorGrapeFruit2, white )
+	createAlerts(colorGrapeFruit1, colorGrapeFruit2, white, white )
 
 .info
 	createAlerts(colorAqua1, colorAqua2, colorAqua2, white )
@@ -234,7 +235,8 @@ ul
 		margin-top 2em
 		margin-bottom 2em
 	.content
-		margin-top 4em
+		margin-top 2em
+		
 		.list-image-cultivo
 			h3
 				border-radius 1em
@@ -250,14 +252,14 @@ ul
 			
 		.cultivo-1
 			h3
-				background	colorGrapeFruit1
+				background	colorBitterSweet2
 			p.subline
-				color colorGrapeFruit1	
+				color colorBitterSweet2	
 			a:hover
 				h3
-					background colorGrapeFruit2
+					background colorBitterSweet1
 				p
-					color colorGrapeFruit2
+					color colorBitterSweet1
 		.cultivo-2
 			h3
 				background colorBellFlower1
@@ -309,6 +311,47 @@ ul
 			margin-top 1em
 			a.button
 				margin-top 1em
+	.list-fertilizantes
+		img
+			width 60%
+		h4
+			border-radius 1em
+			color white
+			font-size 1em
+			font-weight bold
+			padding 0.4em 0.3em	
+			text-transform uppercase
+			
+		li
+			a:hover
+				img
+					transform scale(1.2 ,1.2)
+			&.etapa-1
+				h4
+					background	colorBitterSweet2
+				a:hover
+					h4
+						background colorBitterSweet1
+			&.etapa-2
+				h4
+					background colorBellFlower1
+				a:hover
+					h4
+						background colorBellFlower2
+			&.etapa-3
+				h4
+					background colorCiamsa2
+				a:hover
+					h4
+						background colorCiamsa3
+			&.etapa-4
+				h4
+					background colorAqua2
+				a:hover
+					h4
+						background colorAqua1
+				
+			
 			
 /** 
 * Custom Queries 
@@ -319,6 +362,8 @@ ul
 	.wrapper-step-one
 		.content
 			margin-top 2em
+	.logo
+		width 250px
 
 
 /**

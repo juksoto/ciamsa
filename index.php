@@ -8,10 +8,15 @@
 	<section class="wrapper-step wrapper-app">
 		<!-- NAV -->
 		<nav>
-			<section class="row">
-	  			<section class="small-12 column text-right">
-	  				<a href="" class="button btn-ciamsa"> <span class="icon-user" aria-hidden="true"></span> Solicitar cotización</a>
-	  			</section>
+			<section class="row text-small-only-center">
+				<article class="small-12 medium-3 column ">
+					<a href="">
+						<img src="images/logo-ciamsa.png" alt="" width="180px" class ="logo">
+					</a>
+				</article>
+				<section class="small-12 medium-9 column text-medium-right btn-header">
+					<a href="" class="button btn-ciamsa"> <span class="icon-user" aria-hidden="true"></span> Solicitar cotización</a>
+				</section>
 			</section>
 		</nav>
 		<!-- end NAV -->

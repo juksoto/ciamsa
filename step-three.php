@@ -1,3 +1,8 @@
+<?php
+require 'config/conexion.php';
+require 'includes/helpers.php';
+redirectThree();
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -40,13 +45,13 @@
             <!-- End  title -->
             <!-- List Logo Filter -->
             <section class="row ">
-                <section class="small-10 medium-10 small-centered column text-center list-filter" >
+                <section class="small-12 medium-10 small-centered column text-center list-filter" >
                     <ul class="row small-up-5 list-logo-products">
                         <?php
                         require 'layout/list_logo_productos.php'
                         ?>
                         <li class="column text-center">
-                            <a href="" class=" button btn-ciamsa"> <span class="icon-filter"></span> Mostrar todos</a>
+                            <a href="" class=" ">  Mostrar todos</a>
                         </li>
                     </ul>
                 </section>
@@ -55,9 +60,9 @@
             <!-- List Fertilizante -->
             <section class="row ">
                 <section class="small-12 medium-11 small-centered column text-center list-fertilizantes" >
-                    <ul class="row small-up-5 list-logo-products">
+                    <ul class="row small-up-4 medium-up-5 list-fertilizantes">
                         <?php
-                        require 'layout/list-fertilizante.php'
+                        require 'layout/list_fertilizante.php'
                         ?>
                     </ul>
                 </section>

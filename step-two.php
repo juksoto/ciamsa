@@ -16,7 +16,7 @@
         <section class="row text-small-only-center">
             <article class="small-12 medium-3 column ">
                 <a href="">
-                    <img src="images/logo-ciamsa.png" alt="" width="180px">
+                    <img src="images/logo-ciamsa.png" alt="" width="180px" class ="logo">
                 </a>
             </article>
             <section class="small-12 medium-9 column text-medium-right btn-header">
@@ -49,7 +49,7 @@
         <!-- content -->
         <section class="row content">
             <section class="small-10 medium-11 small-centered column text-center">
-                <ul class="row small-up-4 list-image-cultivo">
+                <ul class="row small-up-2 medium-up-4 list-image-cultivo">
                     <?php
                     require 'layout/list_etapas_images.php'
                     ?>
