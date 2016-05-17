@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>CIAMSA - Conozca el producto para nutrir su cultivo</title>
-   	<link rel="stylesheet" href="assets/css/foundation.css" />
-    <link href="assets/css/normalize.css" rel="stylesheet">
-    <link href="vendors/bootflat/css/bootflat.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+	<?php require 'includes/head.php' ?>
 </head>
 <body>
 	<!-- Step One -->
-	<section class="wrapper-step">
+	<section class="wrapper-step wrapper-app">
 		<!-- NAV -->
 		<nav>
 			<section class="row">
@@ -61,7 +53,7 @@
 					</h1>
 					<section class="row">
 						<article class="small-5 medium-3 column text-center small-centered medium-centered">
-							<a href="" class="button btn-grapefruit expanded">
+							<a href="step-one.php?home" class="button btn-grapefruit expanded">
 								Iniciar aquí
 						 	</a>	
 						</article>
