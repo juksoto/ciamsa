@@ -117,7 +117,7 @@ nav
 	padding-top 1em
 
 select, textarea
-	margin 0 0 1rem
+	margin 0 0 0.6rem
 
 
 /****
@@ -125,7 +125,7 @@ select, textarea
  */
  
 .successful
- 	createAlerts(colorGrass1, colorGrass2, colorGrass2, white)
+ 	createAlerts(colorGrass1, colorGrass2, colorGrass2, wfile:/C:/xampp/htdocs/ciamsa/layout/animate/animate_index.phphite)
 	
 .notice
 	createAlerts(colorSunFlower1, colorSunFlower2, colorSunFlower3, white )
@@ -146,7 +146,62 @@ select, textarea
 	top 3em
 	width 20em
 	z-index 9999
+
+/**
+* Animate APP
+**/
+.wrapper-step
+	.list-logo	
+		display none
+	.header-image
+		h1
+			opacity 0
+			margin-top -10px
+		img
+			opacity 0
+			
+		.button
+			opacity 0
+			margin-top -5px
+
+.wrapper-step-one
+	.list-icon-cultivo
+		li
+			opacity 0
+.wrapper-step-two
+	.list-image-cultivo
+		li
+			opacity 0
+		.animate-1
+			margin-top 0
+			animation animated 4s ease inifinite alternate
+			-webkit-animation animated 4s linear infinite;
+			
+		.animate-2
+			margin-top 0
+			animation animated 3s ease inifinite alternate
+			-webkit-animation animated 3s linear infinite;
+		.animate-3
+			margin-top 0
+			animation animated 2s ease inifinite alternate
+			-webkit-animation animated 2s linear infinite;
 		
+		.animate-4
+			margin-top 0
+			animation animated 3.5s ease inifinite alternate
+			-webkit-animation animated 3.5s linear infinite;	
+
+.wrapper-step-three
+	.list-fertilizantes
+		li
+			opacity 0
+			
+@keyframes animated {
+    0%{margin-top: 0px}
+    50% {margin-top: 4px}
+    100% {margin-top: 0px}
+    
+}
 /****
  * Buttons
  */
@@ -196,12 +251,30 @@ ul
 			font-size 1.4em
 			margin-top 0.5em
 			margin-bottom 1em  
+.logo
+	width 105px
+	
 .modal-product
 	padding 0em
 	border 1px solid colorBitterSweet1
 	border-radius 1em
 .modal-content
-	padding 2em
+	padding 1.5em 1em 0.2em 1em
+	h3
+		color white
+		font-size 1.2em
+		border-radius 1em
+		padding 0.5em
+		margin-top 0em
+		margin-bottom 0.5em
+		&.etapa-1
+			background	colorBitterSweet2
+		&.etapa-2
+			background colorBellFlower1
+		&.etapa-3
+			background colorCiamsa2
+		&.etapa-4
+			background colorAqua2
 		
 .reveal
 	border-radius 1em
@@ -215,12 +288,15 @@ ul
 			h2
 				color colorCiamsa2
 				line-height 1
+				text-shadow -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white
 			span
 				display block
+				text-shadow none
 				&.step
 					color colorCiamsa3
-					font-weight bold
 					font-size 0.6em
+					font-weight bold
+					text-shadow -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white
 				&.textline
 					color colorGrayCiamsa
 					display block
@@ -239,6 +315,8 @@ ul
 		margin-top 2em
 		img
 			width 12em
+	.logo
+		display none
 .wrapper-step-one
 	background url('../img/bg_sky.jpg') no-repeat white top center fixed
 	background-size cover
@@ -369,22 +447,6 @@ ul
 				a:hover
 					h4
 						background colorAqua1
-.modal-content
-	h3
-		color white
-		font-size 1.2em
-		border-radius 1em
-		padding 0.5em
-		margin-top 0em
-		&.etapa-1
-			background	colorBitterSweet2
-		&.etapa-2
-			background colorBellFlower1
-		&.etapa-3
-			background colorCiamsa2
-		&.etapa-4
-			background colorAqua2
-			
 .wrapper-cotizar
 	background url('../img/bg_madera.jpg') repeat
 
@@ -394,6 +456,7 @@ ul
 	input[type="checkbox"]
 		height 1.1rem
 		width 1.1em !important
+		margin-top -0.4em
 		
 	.bg-paper
 		background url('../img/bg_paper.png') no-repeat center top
@@ -416,11 +479,15 @@ ul
 
 /* Small Only */
 @media screen and (max-width: 39.9375em)
+	.wrapper-step
+		.logo
+			display block
+			margin 0 auto
 	.wrapper-step-one
 		.content
 			margin-top 2em
 	.logo
-		width 250px
+		width 7em
 	.wrapper-app
 		h2
 			font-size 2em

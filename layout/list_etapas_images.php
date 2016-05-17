@@ -12,9 +12,9 @@ if ($result = $mysqli -> query ($sql) ) {
         while ($R = $result -> fetch_array())
         {
             ?>
-            <li class ="column text-center cultivo-<?= $R['id'] ?>" >
+            <li class ="column text-center cultivo-<?= $R['id'] ?>"  >
                 <a href="step-three.php?tipo=<?=$tipo ?>&etapa=<?= $R['id'] ?>">
-                    <img src="<?= $R['imagen'] ?>" alt="">
+                    <img src="<?= $R['imagen'] ?>" alt="" class="animate-<?= $R['id'] ?>">
                     <h3>
                         <?= $R["etapas"]; ?>
                         </h3>

@@ -94,7 +94,7 @@ nav {
 }
 select,
 textarea {
-  margin: 0 0 1rem;
+  margin: 0 0 0.6rem;
 }
 /****
  * Alerts
@@ -102,7 +102,7 @@ textarea {
 .successful,
 createAlerts(colorGrass1,
 colorGrass2,
-white),
+wfile:/C:/xampp/htdocs/ciamsa/layout/animate/animate_index.phphite),
 .notice {
   background-color: #ffce54;
   border: 1px solid #f6bb42;
@@ -112,14 +112,14 @@ white),
 .successful a,
 createAlerts(colorGrass1 a,
 colorGrass2 a,
-white) a,
+wfile:/C:/xampp/htdocs/ciamsa/layout/animate/animate_index.phphite) a,
 .notice a {
   color: #fff;
 }
 .successful a:hover,
 createAlerts(colorGrass1 a:hover,
 colorGrass2 a:hover,
-white) a:hover,
+wfile:/C:/xampp/htdocs/ciamsa/layout/animate/animate_index.phphite) a:hover,
 .notice a:hover {
   color: #8a6d3b;
   text-decoration: underline;
@@ -160,6 +160,80 @@ white) a:hover,
   top: 3em;
   width: 20em;
   z-index: 9999;
+}
+/**
+* Animate APP
+**/
+.wrapper-step .list-logo {
+  display: none;
+}
+.wrapper-step .header-image h1 {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  margin-top: -10px;
+}
+.wrapper-step .header-image img {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+.wrapper-step .header-image .button {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  margin-top: -5px;
+}
+.wrapper-step-one .list-icon-cultivo li {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+.wrapper-step-two .list-image-cultivo li {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+.wrapper-step-two .list-image-cultivo .animate-1 {
+  margin-top: 0;
+  -webkit-animation: animated 4s ease inifinite alternate;
+  -moz-animation: animated 4s ease inifinite alternate;
+  -o-animation: animated 4s ease inifinite alternate;
+  -ms-animation: animated 4s ease inifinite alternate;
+  animation: animated 4s ease inifinite alternate;
+  -webkit-animation: animated 4s linear infinite;
+}
+.wrapper-step-two .list-image-cultivo .animate-2 {
+  margin-top: 0;
+  -webkit-animation: animated 3s ease inifinite alternate;
+  -moz-animation: animated 3s ease inifinite alternate;
+  -o-animation: animated 3s ease inifinite alternate;
+  -ms-animation: animated 3s ease inifinite alternate;
+  animation: animated 3s ease inifinite alternate;
+  -webkit-animation: animated 3s linear infinite;
+}
+.wrapper-step-two .list-image-cultivo .animate-3 {
+  margin-top: 0;
+  -webkit-animation: animated 2s ease inifinite alternate;
+  -moz-animation: animated 2s ease inifinite alternate;
+  -o-animation: animated 2s ease inifinite alternate;
+  -ms-animation: animated 2s ease inifinite alternate;
+  animation: animated 2s ease inifinite alternate;
+  -webkit-animation: animated 2s linear infinite;
+}
+.wrapper-step-two .list-image-cultivo .animate-4 {
+  margin-top: 0;
+  -webkit-animation: animated 3.5s ease inifinite alternate;
+  -moz-animation: animated 3.5s ease inifinite alternate;
+  -o-animation: animated 3.5s ease inifinite alternate;
+  -ms-animation: animated 3.5s ease inifinite alternate;
+  animation: animated 3.5s ease inifinite alternate;
+  -webkit-animation: animated 3.5s linear infinite;
+}
+.wrapper-step-three .list-fertilizantes li {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
 }
 /****
  * Buttons
@@ -233,6 +307,9 @@ ul.list-icon-cultivo h3 {
   margin-top: 0.5em;
   margin-bottom: 1em;
 }
+.logo {
+  width: 105px;
+}
 .modal-product {
   padding: 0em;
   border: 1px solid #fc6e51;
@@ -240,7 +317,28 @@ ul.list-icon-cultivo h3 {
   border-radius: 1em;
 }
 .modal-content {
-  padding: 2em;
+  padding: 1.5em 1em 0.2em 1em;
+}
+.modal-content h3 {
+  color: #fff;
+  font-size: 1.2em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+.modal-content h3.etapa-1 {
+  background: #e9573f;
+}
+.modal-content h3.etapa-2 {
+  background: #5d3f6a;
+}
+.modal-content h3.etapa-3 {
+  background: #70a53b;
+}
+.modal-content h3.etapa-4 {
+  background: #3bafda;
 }
 .reveal {
   -webkit-border-radius: 1em;
@@ -255,14 +353,17 @@ ul.list-icon-cultivo h3 {
 .wrapper-app .header-title h2 {
   color: #70a53b;
   line-height: 1;
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 .wrapper-app .header-title span {
   display: block;
+  text-shadow: none;
 }
 .wrapper-app .header-title span.step {
   color: #b0c600;
-  font-weight: bold;
   font-size: 0.6em;
+  font-weight: bold;
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 .wrapper-app .header-title span.textline {
   color: #3d3d3d;
@@ -289,6 +390,9 @@ ul.list-icon-cultivo h3 {
 }
 .wrapper-step .list-logo-small img {
   width: 12em;
+}
+.wrapper-step .logo {
+  display: none;
 }
 .wrapper-step-one {
   background: url("../img/bg_sky.jpg") no-repeat #fff top center fixed;
@@ -445,26 +549,6 @@ ul.list-icon-cultivo h3 {
 .wrapper-step-three .list-fertilizantes li.etapa-4 a:hover h4 {
   background: #4fc1e9;
 }
-.modal-content h3 {
-  color: #fff;
-  font-size: 1.2em;
-  -webkit-border-radius: 1em;
-  border-radius: 1em;
-  padding: 0.5em;
-  margin-top: 0em;
-}
-.modal-content h3.etapa-1 {
-  background: #e9573f;
-}
-.modal-content h3.etapa-2 {
-  background: #5d3f6a;
-}
-.modal-content h3.etapa-3 {
-  background: #70a53b;
-}
-.modal-content h3.etapa-4 {
-  background: #3bafda;
-}
 .wrapper-cotizar {
   background: url("../img/bg_madera.jpg") repeat;
 }
@@ -475,6 +559,7 @@ ul.list-icon-cultivo h3 {
 .wrapper-cotizar input[type="checkbox"] {
   height: 1.1rem;
   width: 1.1em !important;
+  margin-top: -0.4em;
 }
 .wrapper-cotizar .bg-paper {
   background: url("../img/bg_paper.png") no-repeat center top;
@@ -496,11 +581,15 @@ ul.list-icon-cultivo h3 {
 **/
 /* Small Only */
 @media screen and (max-width: 39.9375em) {
+  .wrapper-step .logo {
+    display: block;
+    margin: 0 auto;
+  }
   .wrapper-step-one .content {
     margin-top: 2em;
   }
   .logo {
-    width: 250px;
+    width: 7em;
   }
   .wrapper-app h2 {
     font-size: 2em;
@@ -598,4 +687,48 @@ ul.list-icon-cultivo h3 {
 */
 .font-sansNarrow {
   font-family: 'PT Sans Narrow', sans-serif !important;
+}
+@-moz-keyframes animated {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 4px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+@-webkit-keyframes animated {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 4px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+@-o-keyframes animated {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 4px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+@keyframes animated {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 4px;
+  }
+  100% {
+    margin-top: 0px;
+  }
 }

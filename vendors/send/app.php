@@ -11,9 +11,15 @@
 		$celular        = $_POST['celular'];
 		$tipo_cultivo   = $_POST['tipo_cultivo'];
         $etapa_cultivo  = $_POST['etapa_cultivo'];
+        $empresa        = $_POST['empresa'];
         $forkamix       = $_POST['forkamix'];
         $mensaje        = $_POST['mensaje'];
 
+
+        //separamos
+        $depto = explode("|", $departamento);
+        $tipo = explode("|", $tipo_cultivo);
+        $etapa = explode("|", $etapa_cultivo);
 
         //Variable que debe decir "Ciamsa App, esto es para robots o spammer
         $direccion     = $_POST['direccion'];
@@ -33,9 +39,9 @@
 
                 $sql = '
               INSERT INTO
-              usuario (nombre, correo, ciudad, telefono, celular, fertilizante, informacion, tipo_cultivo_id, etapas_cultivo_id, departamentos_id ) 
+              usuario (nombre, correo, ciudad, telefono, celular, empresa, fertilizante, informacion, tipo_cultivo_id, etapas_cultivo_id, departamentos_id ) 
               VALUES 
-              ("'.$nombre.'","'.$correo.'","'.$ciudad.'","'.$telefono.'","'.$celular.'", "'.$forkamix.'","'.$mensaje.'" ,"'.$tipo_cultivo.'","'.$etapa_cultivo.'","'.$departamento.'")';
+              ("'.$nombre.'","'.$correo.'","'.$ciudad.'","'.$telefono.'","'.$celular.'" ,"'.$empresa.'", "'.$forkamix.'","'.$mensaje.'" ,"'.$tipo[0].'","'.$etapa[0].'","'.$depto[0].'")';
                 
                 if ($mysqli -> query ($sql) == true ) {
                     $Fecha = date("d-M-y H:i");
@@ -58,12 +64,11 @@
                             <p><b>Fecha de la solicitud:</b>'.$creado.'</p>
                             <p><b>Nombre:</b>'.$nombre.'</p>
                             <p><b>Correo:</b>'.$correo.'</p>
-                            <p><b>Departamento:</b>'.$departamento.'</p>
-                            <p><b>Departamento:</b>'.$departamento.'</p>
+                            <p><b>Departamento:</b>'.$depto[1].'</p>
                             <p><b>Ciudad:</b>'.$ciudad.'</p>
                             <p><b>Teléfono:</b>'.$telefono.'</p>
-                            <p><b>Tipo de cultivo:</b>'.$tipo_cultivo.'</p>
-                            <p><b>Etapa del cultivo:</b>'.$etapa_cultivo.'</p>
+                            <p><b>Tipo de cultivo:</b>'.$tipo[1].'</p>
+                            <p><b>Etapa del cultivo:</b>'.$etapa[1].'</p>
                             <p><b>¿Deseo forkamix mexcla a la medida?:</b>'.$forkamix.'</p>
                             <p><b>Información adicional</b>'.$mensaje.'</p>
 

@@ -50,7 +50,7 @@
         <!-- content -->
         <section class="row content">
             <section class="small-10 medium-11 small-centered column text-center">
-                <ul class="row small-up-2 medium-up-4 list-image-cultivo">
+                <ul class="row small-up-2 medium-up-4 list-image-cultivo" id="list-image-cultivo">
                     <?php
                     require 'layout/list_etapas_images.php'
                     ?>
@@ -63,7 +63,7 @@
     <!-- Bottom -->
     <section class="row bottom">
         <section class="small-12 column text-center">
-           <!-- <img src="images/ads/forkamix-medida.png" alt="Forkamix a la medida" >-->
+           <img src="images/ads/forkamix-medida.png" alt="Forkamix a la medida">
         </section>
     </section>
     <!-- End  Bottom -->
@@ -81,6 +81,12 @@
 <script src="assets/js/foundation.min.js"></script>
 <script>
     $(document).foundation();
+</script>
+<script>
+    $(document).ready(function(){
+        <?php require 'layout/animate/animate_index.php' ?>
+        animateStepTwo();
+    });
 </script>
 </body>
 </html>

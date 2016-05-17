@@ -10,7 +10,7 @@
 		<!-- NAV -->
 		<nav>
 			<section class="row text-small-only-center">
-				<article class="small-12 medium-3 column ">
+				<article class="small-12 medium-3 column text-center">
 					<a href="">
 						<img src="images/logo-ciamsa.png" alt="" width="180px" class ="logo">
 					</a>
@@ -119,5 +119,12 @@
     <script>
       $(document).foundation();
     </script>
+	<script>
+		$(document).ready(function(){
+			<?php require 'layout/animate/animate_index.php' ?>
+			animateIndex();
+		});
+	</script>
+
 </body>
 </html>

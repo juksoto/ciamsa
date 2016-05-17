@@ -73,6 +73,18 @@ require 'config/conexion.php';
                             </article>
                         </section>
                         <!-- End Email -->
+                        <!-- Empresa -->
+                        <section class="row">
+                            <article class="small-4 medium-3 columns">
+                                <label for="empresa" class ="text-left">
+                                    Empresa
+                                </label>
+                            </article>
+                            <article class="small-8  medium-9 columns">
+                                <input type="text" name="empresa" required class="form-control">
+                            </article>
+                        </section>
+                        <!-- End Empresa -->
                         <!-- Departamento -->
                         <section class="row">
                             <article class="small-4 medium-3 columns">

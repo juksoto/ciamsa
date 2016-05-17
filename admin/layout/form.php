@@ -18,7 +18,7 @@
     </div>
 </div>
 <div class="form-group">
-    <label for="referencia_id" class="col-sm-2 control-label">Tipo de cultivo</label>
+    <label for="referencia_id" class="col-sm-2 control-label">referencia</label>
     <div class="col-sm-10">
         <select class="form-control" name="referencia_id" required>
             <option value> Seleccione uno</option>

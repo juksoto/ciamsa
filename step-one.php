@@ -50,7 +50,7 @@
 			<!-- content -->
 			<section class="row content">
 				<section class="small-10 medium-9 small-centered column text-center">
-					<ul class="row small-up-4 medium-up-5 list-icon-cultivo">
+					<ul class="row small-up-4 medium-up-5 list-icon-cultivo" id="list-cultivo">
 						<?php
 							require 'layout/list_cultivo_icon.php'
 						?>
@@ -84,5 +84,11 @@
     <script>
       $(document).foundation();
     </script>
+	<script>
+		$(document).ready(function(){
+			<?php require 'layout/animate/animate_index.php' ?>
+			animateStepOne();
+		});
+	</script>
 </body>
 </html>

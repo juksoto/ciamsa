@@ -34,7 +34,7 @@
                     $url_image_product = "simples";
                 }
             $url = 'images/referencias/' + $url_image_product + "/" + $msg[2];
-            $urlComp = 'images/referencias/componentes/' + $url_image_product + "/" + $msg[1];
+            $urlComp = 'images/referencias/componentes/' + $url_image_product + "/" + $msg[0];
             $('#modalProductos #img_referencia').html("<img src ='" + $url +".png' alt='' />"  );
              $('#modalProductos #img_referencia_componentes').html("<h3 class='etapa-" + etapa + "'>"+ $msg[3]+" </h3> <img src ='" + $urlComp +".png' alt='' />"  );
 

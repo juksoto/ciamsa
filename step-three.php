@@ -37,7 +37,7 @@ redirectThree();
             </section>
             <section class="row">
                     <article class="small-12 small-centered column text-center">
-                        <a href="cotizar.php<?php if( isset ( $url ) ) { echo $url; } ?>" class="button btn-grapefruit expanded">
+                        <a href="cotizar.php<?php if( isset ( $url ) ) { echo $url; } ?>" class="button btn-grapefruit">
                             <span class="icon-information"></span> Solicitar cotización
                         </a>
                     </article>
@@ -64,7 +64,7 @@ redirectThree();
             <!-- List Fertilizante -->
             <section class="row ">
                 <section class="small-12 medium-11 small-centered column text-center list-fertilizantes" >
-                    <ul class="row small-up-3 medium-up-5 list-fertilizantes">
+                    <ul class="row small-up-3 medium-up-5 list-fertilizantes" id="list-fertilizantes">
                         <?php
                         require 'layout/list_fertilizante.php'
                         ?>
@@ -105,6 +105,12 @@ redirectThree();
 <?php require 'includes/scripts.php' ?>
 <script>
     $(document).foundation();
+</script>
+<script>
+    $(document).ready(function(){
+        <?php require 'layout/animate/animate_index.php' ?>
+        animateStepThree();
+    });
 </script>
 </body>
 </html>

@@ -13,8 +13,7 @@ if ($result = $mysqli -> query ($sql) ) {
         while ($R = $result -> fetch_array())
         {
             ?>
-            ?>
-            <option value="<?= $R['id'] ?>" <?php if( isset($etapa) and ($etapa == $R['id']) ) { echo "selected"; } ?> >
+            <option value="<?= $R['id'] ?>|<?= $R['etapas'] ?>" <?php if( isset($etapa) and ($etapa == $R['id']) ) { echo "selected"; } ?> >
                 <?= $R['etapas'] ?>
             </option>
             <?php

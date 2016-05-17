@@ -9,7 +9,7 @@ if ($result = $mysqli -> query ($sql) ) {
         while ($R = $result -> fetch_array())
         {
             ?>
-            <option value ="<?= $R['id']?>" ><?= $R['departamento']?> </option>
+            <option value ="<?= $R['id']?>|<?= $R['departamento']?>" ><?= $R['departamento']?> </option>
             <?php
         }
     }
