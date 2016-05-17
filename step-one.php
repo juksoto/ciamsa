@@ -7,6 +7,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<title>CIAMSA - Paso 1 - Tipo de cultivo</title>
 	<?php require 'includes/head.php' ?>
 </head>
 <body>
@@ -22,7 +23,7 @@
 				</article>
 				<section class="small-12 medium-9 column text-medium-right btn-header">
 					<a href="index.php" class="button btn-sunflower"> <span class="icon-home" aria-hidden="true"></span> Inicio</a>
-					<a href="" class="button btn-ciamsa"> <span class="icon-user" aria-hidden="true"></span> Solicitar cotización</a>
+					<a href="cotizar.php" class="button btn-ciamsa"> <span class="icon-user" aria-hidden="true"></span> Solicitar cotización</a>
 				</section>
 			</section>
 		</nav>
@@ -62,7 +63,9 @@
 		<!-- Bottom -->
 		<section class="row bottom">
 			<section class="small-12 column text-center">
+				<a href="cotizar.php">
 					<img data-interchange="[images/ads/forkamix-medida-m.jpg, small], [images/ads/forkamix-medida-m.jpg, medium], [images/ads/forkamix-medida.jpg, large]"  alt="Forkamix a la medida" >
+				</a>
 			</section>
 		</section>	
 		<!-- End  Bottom -->

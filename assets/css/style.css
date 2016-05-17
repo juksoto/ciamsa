@@ -86,8 +86,15 @@ h1 .small {
 h3 {
   font-family: 'PT Sans Narrow', sans-serif !important;
 }
+label {
+  font-size: 1.2em;
+}
 nav {
   padding-top: 1em;
+}
+select,
+textarea {
+  margin: 0 0 1rem;
 }
 /****
  * Alerts
@@ -457,6 +464,32 @@ ul.list-icon-cultivo h3 {
 }
 .modal-content h3.etapa-4 {
   background: #3bafda;
+}
+.wrapper-cotizar {
+  background: url("../img/bg_madera.jpg") repeat;
+}
+.wrapper-cotizar input[type='text'],
+.wrapper-cotizar input[type='email'] {
+  height: 2rem !important;
+}
+.wrapper-cotizar input[type="checkbox"] {
+  height: 1.1rem;
+  width: 1.1em !important;
+}
+.wrapper-cotizar .bg-paper {
+  background: url("../img/bg_paper.png") no-repeat center top;
+  height: 47.5em;
+  margin-top: -1em;
+}
+.wrapper-cotizar .bottom {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.wrapper-cotizar .content {
+  padding-top: 0.1em;
+}
+.wrapper-cotizar .input-one {
+  display: none;
 }
 /** 
 * Custom Queries 

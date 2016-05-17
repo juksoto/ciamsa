@@ -26,3 +26,12 @@ function redirectThree()
         header("Location:index.php");
     }
 }
+function redirectSend()
+{
+    if (!$_POST)
+    {
+        header("Location:index.php");
+    }
+}
+
+

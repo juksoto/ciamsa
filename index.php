@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 	<?php require 'includes/head.php' ?>
+	<title>CIAMSA - Conozca el producto para nutrir su cultivo</title>
 </head>
 <body>
 	<!-- Step One -->
@@ -15,7 +16,7 @@
 					</a>
 				</article>
 				<section class="small-12 medium-9 column text-medium-right btn-header hide-for-small-only">
-					<a href="" class="button btn-ciamsa"> <span class="icon-user" aria-hidden="true"></span> Solicitar cotización</a>
+					<a href="cotizar.php" class="button btn-ciamsa"> <span class="icon-user" aria-hidden="true"></span> Solicitar cotización</a>
 				</section>
 			</section>
 		</nav>
@@ -45,7 +46,7 @@
 			<!-- header image -->
 			<section class="row header-image">
 				<section class="small-12 column text-center">
-					<a href="">
+					<a href="step-one.php?home">
 						<img src="images/producto_nutrir_su_cultivo.png" alt="Conozca el producto para nutrir su cultivo" width="490">
 					</a>
 					<h1>Conozca 
@@ -65,7 +66,7 @@
 					</section>
 					<section class="row">
 						<article class="small-7 medium-3  column text-center small-centered">
-							<a href="" class="button btn-ciamsa expanded show-for-small-only">
+							<a href="cotizar.php" class="button btn-ciamsa expanded show-for-small-only">
 								<span class="icon-user" aria-hidden="true"></span> Solicitar cotización
 							</a>
 						</article>

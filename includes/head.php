@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>CIAMSA - Conozca el producto para nutrir su cultivo</title>
+<meta name="description" content="Conozca el producto para nutrir su cultivo en 3 pasos.">
 <link rel="stylesheet" href="assets/css/foundation.css" />
 <link href="assets/css/normalize.css" rel="stylesheet">
 <link href="vendors/bootflat/css/bootflat.min.css" rel="stylesheet">

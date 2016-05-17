@@ -6,6 +6,7 @@ redirectThree();
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <title>CIAMSA -Paso 3 - Fertilizantes </title>
     <?php require 'includes/head.php' ?>
 </head>
 <body>
@@ -36,7 +37,7 @@ redirectThree();
             </section>
             <section class="row">
                     <article class="small-12 small-centered column text-center">
-                        <a href="" class="button btn-grapefruit expanded">
+                        <a href="cotizar.php<?php if( isset ( $url ) ) { echo $url; } ?>" class="button btn-grapefruit expanded">
                             <span class="icon-information"></span> Solicitar cotización
                         </a>
                     </article>
@@ -76,7 +77,9 @@ redirectThree();
         <!-- Bottom -->
     <section class="row bottom">
         <section class="small-12 column text-center">
-            <img data-interchange="[images/ads/forkamix-medida-m.jpg, small], [images/ads/forkamix-medida-m.jpg, medium], [images/ads/forkamix-medida.jpg, large]"  alt="Forkamix a la medida" >
+            <a href="cotizar.php">
+                <img data-interchange="[images/ads/forkamix-medida-m.jpg, small], [images/ads/forkamix-medida-m.jpg, medium], [images/ads/forkamix-medida.jpg, large]"  alt="Forkamix a la medida" >
+            </a>
         </section>
     </section>
     <!-- End  Bottom -->
