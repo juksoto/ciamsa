@@ -14,14 +14,15 @@ redirectThree();
     <!-- NAV -->
     <?php require 'includes/nav.php' ?>
     <!-- end NAV -->
+
     <!-- bg paper -->
     <section class="bg-paper expanded">
+
         <!-- content -->
         <section class="content">
             <!-- title -->
             <section class="row header-title text-center">
-                <article class="small-10 small-centered column text-center">
-
+                <article class="small-12 small-centered column text-center">
                         <h2>
 							<span class="step">
 								Paso 3 de 3
@@ -31,36 +32,38 @@ redirectThree();
 								Los mejores fertilizantes para su cultivo son
 							</span>
                         </h2>
-
                 </article>
-                </section>
-                <section class="row">
-                    <article class="small-10 small-centered column text-center">
-                        <a href="" class="button btn-grapefruit">
+            </section>
+            <section class="row">
+                    <article class="small-12 small-centered column text-center">
+                        <a href="" class="button btn-grapefruit expanded">
                             <span class="icon-information"></span> Solicitar cotización
                         </a>
                     </article>
                 </section>
-            </section>
             <!-- End  title -->
+        </section>
+        <!-- End  content -->
+
             <!-- List Logo Filter -->
-            <section class="row ">
+           <!-- <section class="row ">
                 <section class="small-12 medium-10 small-centered column text-center list-filter" >
                     <ul class="row small-up-5 list-logo-products">
                         <?php
-                        require 'layout/list_logo_productos.php'
+                      //  require 'layout/list_logo_productos.php'
                         ?>
                         <li class="column text-center">
                             <a href="" class=" ">  Mostrar todos</a>
                         </li>
                     </ul>
                 </section>
-            </section>
+            </section>-->
             <!-- End List Logo Filter -->
+        <?php include "includes/modal.php" ?>
             <!-- List Fertilizante -->
             <section class="row ">
                 <section class="small-12 medium-11 small-centered column text-center list-fertilizantes" >
-                    <ul class="row small-up-4 medium-up-5 list-fertilizantes">
+                    <ul class="row small-up-3 medium-up-5 list-fertilizantes">
                         <?php
                         require 'layout/list_fertilizante.php'
                         ?>
@@ -68,30 +71,35 @@ redirectThree();
                 </section>
             </section>
             <!-- End List Fertilizante -->
-        </section>
-        <!-- End  content -->
-    <!-- Bottom -->
+
+    </section>
+        <!-- Bottom -->
     <section class="row bottom">
         <section class="small-12 column text-center">
-            <img src="images/ads/forkamix-medida.png" alt="Forkamix a la medida" >
+            <img data-interchange="[images/ads/forkamix-medida-m.jpg, small], [images/ads/forkamix-medida-m.jpg, medium], [images/ads/forkamix-medida.jpg, large]"  alt="Forkamix a la medida" >
         </section>
     </section>
     <!-- End  Bottom -->
-    </section>
-    <!-- bg paper -->
-
+    <!-- footer -->
+    <footer class="row expanded">
+        <section class="small-12 text-center">
+            <p>
+                Desarrollo por Innova Corporación S.A.S
+            </p>
+        </section>
+    </footer
+        <!-- end footer -->
+<!-- bg paper -->
 </section>
-<!-- End Step One -->
-<footer class="row expanded">
-    <section class="small-12 text-center">
-        <p>
-            Desarrollo por Innova Corporación S.A.S
-        </p>
-    </section>
-</footer>
+
+<!-- End Step Three -->
+<form action="layout/modalReferencia.php?:VALUE_ID" method="post" id="formReferencia">
+
+</form>
 <script src="assets/js/vendor/jquery.js"></script>
 <script src="assets/js/vendor/what-input.js"></script>
 <script src="assets/js/foundation.min.js"></script>
+<?php require 'includes/scripts.php' ?>
 <script>
     $(document).foundation();
 </script>

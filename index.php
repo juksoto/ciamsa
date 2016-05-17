@@ -14,16 +14,16 @@
 						<img src="images/logo-ciamsa.png" alt="" width="180px" class ="logo">
 					</a>
 				</article>
-				<section class="small-12 medium-9 column text-medium-right btn-header">
+				<section class="small-12 medium-9 column text-medium-right btn-header hide-for-small-only">
 					<a href="" class="button btn-ciamsa"> <span class="icon-user" aria-hidden="true"></span> Solicitar cotización</a>
 				</section>
 			</section>
 		</nav>
 		<!-- end NAV -->
-		<!-- content --> 
+		<!-- content -->
 		<section class="content">
 			<!-- Logos -->
-			<section class="row">
+			<section class="row hide-for-small-only">
 				<section class="small-10 small-centered column text-center">
 					<ul class="row small-up-2 medium-up-4 list-logo" >
 					  <li class="column text-center">
@@ -57,16 +57,43 @@
 						</span>
 					</h1>
 					<section class="row">
-						<article class="small-5 medium-3 column text-center small-centered medium-centered">
-							<a href="step-one.php?home" class="button btn-grapefruit expanded">
+						<article class="small-7 medium-3 column text-center small-centered medium-centered">
+							<a href="step-one.php?home" class="button btn-grapefruit expanded ">
 								Iniciar aquí
 						 	</a>	
+						</article>
+					</section>
+					<section class="row">
+						<article class="small-7 medium-3  column text-center small-centered">
+							<a href="" class="button btn-ciamsa expanded show-for-small-only">
+								<span class="icon-user" aria-hidden="true"></span> Solicitar cotización
+							</a>
 						</article>
 					</section>
 
 				</section>
 			</section>
 			<!-- End  header image -->
+			<!-- Logos Small -->
+			<section class="row show-for-small-only">
+				<section class="small-12 small-centered column text-center">
+					<ul class="row small-up-2  list-logo-small" >
+						<li class="column text-center">
+							<img src="images/logo_forkamix.png" alt="Forkamix">
+						</li>
+						<li class="column text-center">
+							<img src="images/logo_nutrikimia.png" alt="Nutrikimia">
+						</li>
+						<li class="column text-center">
+							<img src="images/logo_nitroeffi.png" alt="Nitro Effi100">
+						</li>
+						<li class="column text-center">
+							<img src="images/logo_solucion_uan.png" alt="Solucion UAN">
+						</li>
+					</ul>
+				</section>
+			</section>
+			<!-- End  Logos Small -->
 		</section>	
 		<!-- End  content -->
 		<!-- Bottom -->

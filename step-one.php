@@ -49,7 +49,7 @@
 			<!-- content -->
 			<section class="row content">
 				<section class="small-10 medium-9 small-centered column text-center">
-					<ul class="row small-up-5 list-icon-cultivo">
+					<ul class="row small-up-4 medium-up-5 list-icon-cultivo">
 						<?php
 							require 'layout/list_cultivo_icon.php'
 						?>
@@ -62,7 +62,7 @@
 		<!-- Bottom -->
 		<section class="row bottom">
 			<section class="small-12 column text-center">
-					<img src="images/ads/forkamix-medida.png" alt="Forkamix a la medida" >
+					<img data-interchange="[images/ads/forkamix-medida-m.jpg, small], [images/ads/forkamix-medida-m.jpg, medium], [images/ads/forkamix-medida.jpg, large]"  alt="Forkamix a la medida" >
 			</section>
 		</section>	
 		<!-- End  Bottom -->

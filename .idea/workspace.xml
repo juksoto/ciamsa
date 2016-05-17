@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12636341-b4f5-41e1-9459-f62d5b34ac7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/modal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/modalReferencia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.styl" afterPath="$PROJECT_DIR$/assets/css/style.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/helpers.php" afterPath="$PROJECT_DIR$/includes/helpers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/nav.php" afterPath="$PROJECT_DIR$/includes/nav.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/list_fertilizante.php" afterPath="$PROJECT_DIR$/layout/list_fertilizante.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/list_logo_productos.php" afterPath="$PROJECT_DIR$/layout/list_logo_productos.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step-one.php" afterPath="$PROJECT_DIR$/step-one.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step-three.php" afterPath="$PROJECT_DIR$/step-three.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step-two.php" afterPath="$PROJECT_DIR$/step-two.php" />
     </list>
     <ignored path="ciamsa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,34 +36,10 @@
       <file leaf-file-name="step-one.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/step-one.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="14" selection-start-line="15" selection-start-column="8" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="495">
+              <caret line="68" column="14" selection-start-line="61" selection-start-column="8" selection-end-line="68" selection-end-column="14" />
               <folding>
-                <marker date="1463461303861" expanded="true" signature="1989:2041" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_cultivo_icon.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/list_cultivo_icon.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <marker date="1463451481120" expanded="true" signature="18:61" placeholder="SELECT * FRO... tipo_cultivo" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_etapas_images.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/list_etapas_images.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <marker date="1463451484032" expanded="true" signature="14:59" placeholder="SELECT * FRO... etapas_cultivo" />
+                <marker date="1463463210600" expanded="true" signature="2111:2163" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -72,27 +48,27 @@
       <file leaf-file-name="list_fertilizante.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/list_fertilizante.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            <state relative-caret-position="663">
+              <caret line="69" column="172" selection-start-line="69" selection-start-column="172" selection-end-line="69" selection-end-column="172" />
               <folding>
-                <marker date="1463460295223" expanded="true" signature="184:372" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
-                <marker date="1463460295223" expanded="true" signature="184:377" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
-                <marker date="1463460295223" expanded="true" signature="184:552" placeholder="SELECT cer.*... cultivo_etapas_referencias" />
-                <marker date="1463460295223" expanded="true" signature="184:672" placeholder="SELECT cer.*... cultivo_etapas_referencias" />
-                <marker date="1463460295223" expanded="true" signature="184:673" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
-                <marker date="1463460295223" expanded="true" signature="2211:2233" placeholder="..." />
+                <marker date="1463470335195" expanded="true" signature="184:386" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
+                <marker date="1463470335195" expanded="true" signature="184:391" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
+                <marker date="1463470335195" expanded="true" signature="184:566" placeholder="SELECT cer.*... cultivo_etapas_referencias" />
+                <marker date="1463470335195" expanded="true" signature="184:686" placeholder="SELECT cer.*... cultivo_etapas_referencias" />
+                <marker date="1463470335195" expanded="true" signature="184:687" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
+                <marker date="1463470335195" expanded="true" signature="2367:2389" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/layout/table.php">
+      <file leaf-file-name="list_cultivo_icon.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/list_cultivo_icon.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="92" selection-end-column="6" />
+            <state relative-caret-position="357">
+              <caret line="21" column="5" selection-start-line="1" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
               <folding>
-                <marker date="1463433579956" expanded="true" signature="385:885" placeholder="SELECT c.cul... cultivo_etapas_referencias" />
+                <marker date="1463451481120" expanded="true" signature="18:61" placeholder="SELECT * FRO... tipo_cultivo" />
               </folding>
             </state>
           </provider>
@@ -113,38 +89,63 @@
       <file leaf-file-name="step-three.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/step-three.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            <state relative-caret-position="580">
+              <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/nav.php">
+      <file leaf-file-name="modalReferencia.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/modalReferencia.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+            <state relative-caret-position="255">
+              <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+              <folding>
+                <marker date="1463470004884" expanded="true" signature="176:221" placeholder="SELECT * FRO... referencia" />
+                <marker date="1463470004884" expanded="true" signature="176:227" placeholder="SELECT * FRO... referencia" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/conexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/helpers.php">
+      <file leaf-file-name="list_etapas_images.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout/list_etapas_images.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="357">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <marker date="1463451484032" expanded="true" signature="14:59" placeholder="SELECT * FRO... etapas_cultivo" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/modal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="scripts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/scripts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+            <state relative-caret-position="0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -182,12 +183,15 @@
         <option value="$PROJECT_DIR$/layout/list_etapas_images.php" />
         <option value="$PROJECT_DIR$/layout/list_logo_productos.php" />
         <option value="$PROJECT_DIR$/includes/helpers.php" />
-        <option value="$PROJECT_DIR$/layout/list_fertilizante.php" />
-        <option value="$PROJECT_DIR$/step-three.php" />
         <option value="$PROJECT_DIR$/step-two.php" />
         <option value="$PROJECT_DIR$/includes/nav.php" />
-        <option value="$PROJECT_DIR$/step-one.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/step-one.php" />
+        <option value="$PROJECT_DIR$/includes/scripts.php" />
+        <option value="$PROJECT_DIR$/step-three.php" />
+        <option value="$PROJECT_DIR$/layout/modalReferencia.php" />
+        <option value="$PROJECT_DIR$/layout/list_fertilizante.php" />
+        <option value="$PROJECT_DIR$/includes/modal.php" />
       </list>
     </option>
   </component>
@@ -260,20 +264,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ciamsa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ciamsa" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -329,12 +319,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463414795919</updated>
-      <workItem from="1463414798861" duration="38059000" />
+      <workItem from="1463414798861" duration="47551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38059000" />
+    <option name="totallyTimeSpent" value="47551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -342,7 +332,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33802816" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -512,38 +502,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout/list_etapas_images.php">
+    <entry file="file://$PROJECT_DIR$/includes/nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1463451484032" expanded="true" signature="14:59" placeholder="SELECT * FRO... etapas_cultivo" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout/list_cultivo_icon.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1463451481120" expanded="true" signature="18:61" placeholder="SELECT * FRO... tipo_cultivo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/list_fertilizante.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-          <folding>
-            <marker date="1463460295223" expanded="true" signature="184:372" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
-            <marker date="1463460295223" expanded="true" signature="184:377" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
-            <marker date="1463460295223" expanded="true" signature="184:552" placeholder="SELECT cer.*... cultivo_etapas_referencias" />
-            <marker date="1463460295223" expanded="true" signature="184:672" placeholder="SELECT cer.*... cultivo_etapas_referencias" />
-            <marker date="1463460295223" expanded="true" signature="184:673" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
-            <marker date="1463460295223" expanded="true" signature="2211:2233" placeholder="..." />
-          </folding>
+        <state relative-caret-position="383">
+          <caret line="100" column="57" selection-start-line="100" selection-start-column="57" selection-end-line="100" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,36 +528,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/nav.php">
+    <entry file="file://$PROJECT_DIR$/includes/scripts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+        <state relative-caret-position="0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/step-three.php">
+    <entry file="file://$PROJECT_DIR$/config/conexion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        <state relative-caret-position="255">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/list_cultivo_icon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" selection-start-line="1" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1463451481120" expanded="true" signature="18:61" placeholder="SELECT * FRO... tipo_cultivo" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/step-one.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="14" selection-start-line="15" selection-start-column="8" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="495">
+          <caret line="68" column="14" selection-start-line="61" selection-start-column="8" selection-end-line="68" selection-end-column="14" />
           <folding>
-            <marker date="1463461303861" expanded="true" signature="1989:2041" placeholder="..." />
+            <marker date="1463463210600" expanded="true" signature="2111:2163" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/layout/list_etapas_images.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
+        <state relative-caret-position="357">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <marker date="1463451484032" expanded="true" signature="14:59" placeholder="SELECT * FRO... etapas_cultivo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/list_fertilizante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="69" column="172" selection-start-line="69" selection-start-column="172" selection-end-line="69" selection-end-column="172" />
+          <folding>
+            <marker date="1463470335195" expanded="true" signature="184:386" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
+            <marker date="1463470335195" expanded="true" signature="184:391" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
+            <marker date="1463470335195" expanded="true" signature="184:566" placeholder="SELECT cer.*... cultivo_etapas_referencias" />
+            <marker date="1463470335195" expanded="true" signature="184:686" placeholder="SELECT cer.*... cultivo_etapas_referencias" />
+            <marker date="1463470335195" expanded="true" signature="184:687" placeholder="SELECT r.nom... cultivo_etapas_referencias" />
+            <marker date="1463470335195" expanded="true" signature="2367:2389" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/modalReferencia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+          <folding>
+            <marker date="1463470004884" expanded="true" signature="176:221" placeholder="SELECT * FRO... referencia" />
+            <marker date="1463470004884" expanded="true" signature="176:227" placeholder="SELECT * FRO... referencia" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step-three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>

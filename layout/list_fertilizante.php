@@ -12,6 +12,7 @@
     $sql = "
     SELECT 
         cer.*,
+        r.id,
         r.nombre_referencia,
         r.componentes,
         r.image,
@@ -65,8 +66,9 @@
                 }
 
                 ?>
-                <li class="column text-center etapa-<?php echo $etapa ?> tipo-<?php echo $tipo ?>">
-                    <a href="" >
+
+                <li class="column text-center etapa-<?php echo $etapa ?> tipo-<?php echo $tipo ?>"  data-id="<?php echo $R['id'] ?>" data-etapa="<?php echo $etapa ?>" data-tipo="<?php echo $tipo ?>">
+                    <a data-open="modalProductos" class="btnReferencia" >
                         <img src="images/referencias/<?php echo $url_image_product . "/". $R["image"] ?>.png" alt="<?= $R["nombre_referencia"] ?>">
                         <h4>
                             <?= $R["nombre_referencia"] ?>

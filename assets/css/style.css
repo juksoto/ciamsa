@@ -226,6 +226,19 @@ ul.list-icon-cultivo h3 {
   margin-top: 0.5em;
   margin-bottom: 1em;
 }
+.modal-product {
+  padding: 0em;
+  border: 1px solid #fc6e51;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+}
+.modal-content {
+  padding: 2em;
+}
+.reveal {
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+}
 .wrapper-app .btn-header a {
   margin: 0.5em 0.2em;
 }
@@ -263,6 +276,12 @@ ul.list-icon-cultivo h3 {
 }
 .wrapper-step .header-image {
   margin-top: 3em;
+}
+.wrapper-step .list-logo-small {
+  margin-top: 2em;
+}
+.wrapper-step .list-logo-small img {
+  width: 12em;
 }
 .wrapper-step-one {
   background: url("../img/bg_sky.jpg") no-repeat #fff top center fixed;
@@ -419,6 +438,26 @@ ul.list-icon-cultivo h3 {
 .wrapper-step-three .list-fertilizantes li.etapa-4 a:hover h4 {
   background: #4fc1e9;
 }
+.modal-content h3 {
+  color: #fff;
+  font-size: 1.2em;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin-top: 0em;
+}
+.modal-content h3.etapa-1 {
+  background: #e9573f;
+}
+.modal-content h3.etapa-2 {
+  background: #5d3f6a;
+}
+.modal-content h3.etapa-3 {
+  background: #70a53b;
+}
+.modal-content h3.etapa-4 {
+  background: #3bafda;
+}
 /** 
 * Custom Queries 
 **/
@@ -429,6 +468,18 @@ ul.list-icon-cultivo h3 {
   }
   .logo {
     width: 250px;
+  }
+  .wrapper-app h2 {
+    font-size: 2em;
+  }
+  .wrapper-app span.step {
+    font-size: 0.5em !important;
+  }
+  .wrapper-app span.textline {
+    font-size: 0.5em;
+  }
+  .wrapper-step-two .content {
+    margin-top: 0em;
   }
 }
 /**
