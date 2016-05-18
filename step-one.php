@@ -64,7 +64,7 @@
 		<section class="row bottom">
 			<section class="small-12 column text-center">
 				<a href="cotizar.php">
-					<img data-interchange="[images/ads/forkamix-medida-m.jpg, small], [images/ads/forkamix-medida-m.jpg, medium], [images/ads/forkamix-medida.jpg, large]"  alt="Forkamix a la medida" >
+					<img data-interchange="[images/ads/forkamix-mezclas-medidas-m.jpg, small], [images/ads/forkamix-mezclas-medidas-m.jpg, medium], [images/ads/forkamix-mezclas-medidas.jpg, large]"  alt="Forkamix a la medida" >
 				</a>
 			</section>
 		</section>	

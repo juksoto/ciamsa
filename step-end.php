@@ -132,6 +132,8 @@ redirectSend();
 </script>
 <script>
     $(document).ready(function(){
+        <?php require 'layout/animate/animate_index.php' ?>
+        animateIndex();
         $.idle(60, function() {
             window.location.href = "index.php";
         });

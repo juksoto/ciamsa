@@ -36,15 +36,14 @@
 			if($persona=="ciamsa app"){
 			// Inserta los nuevos datos
 
-
+                $timestamp = date('Y-m-d G:i:s');
                 $sql = '
               INSERT INTO
-              usuario (nombre, correo, ciudad, telefono, celular, empresa, fertilizante, informacion, tipo_cultivo_id, etapas_cultivo_id, departamentos_id ) 
+              usuario (nombre, correo, ciudad, telefono, celular, empresa, fertilizante, informacion, tipo_cultivo_id, etapas_cultivo_id, departamentos_id, fecha ) 
               VALUES 
-              ("'.$nombre.'","'.$correo.'","'.$ciudad.'","'.$telefono.'","'.$celular.'" ,"'.$empresa.'", "'.$forkamix.'","'.$mensaje.'" ,"'.$tipo[0].'","'.$etapa[0].'","'.$depto[0].'")';
+              ("'.$nombre.'","'.$correo.'","'.$ciudad.'","'.$telefono.'","'.$celular.'" ,"'.$empresa.'", "'.$forkamix.'","'.$mensaje.'" ,"'.$tipo[0].'","'.$etapa[0].'","'.$depto[0].'","'.$timestamp.'")';
                 
                 if ($mysqli -> query ($sql) == true ) {
-                    $Fecha = date("d-M-y H:i");
                     $asunto=" Solicitud cotizacion - CIAMSA Aplicacion";
                     $mail->Host = "localhost";
                     $mail->From = $correo;
@@ -78,6 +77,7 @@
                     $mail->Body = utf8_decode($body);
                     $mail->AltBody = $asunto;
 
+                    $result = $mail -> Send();
                     if(!$mail -> Send())
                         {
                          ?>

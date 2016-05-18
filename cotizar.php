@@ -204,9 +204,10 @@ require 'config/conexion.php';
 
     </section>
     <!-- Bottom -->
+
     <section class="row bottom">
         <section class="small-12 column text-center">
-            <img data-interchange="[images/ads/forkamix-medida-m.jpg, small], [images/ads/forkamix-medida-m.jpg, medium], [images/ads/forkamix-medida.jpg, large]"  alt="Forkamix a la medida" >
+            <img data-interchange="[images/ads/forkamix-mezclas-medidas-w-m.jpg, small], [images/ads/forkamix-mezclas-medidas-w-m.jpg, medium], [images/ads/forkamix-mezclas-medidas-w.jpg, large]"  alt="Forkamix a la medida" >
         </section>
     </section>
     <!-- End  Bottom -->

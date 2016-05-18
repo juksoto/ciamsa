@@ -1,0 +1,489 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?-67yv4o");
+  src: url("fonts/icomoon.eot?#iefix-67yv4o") format('embedded-opentype'), url("fonts/icomoon.woff?-67yv4o") format('woff'), url("fonts/icomoon.ttf?-67yv4o") format('truetype'), url("fonts/icomoon.svg?-67yv4o#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'qlassik_bold';
+  src: url("fonts/qlassikbold_tb_0-webfont.eot");
+  src: url("fonts/qlassikbold_tb_0-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/qlassikbold_tb_0-webfont.woff") format('woff'), url("fonts/qlassikbold_tb_0-webfont.ttf") format('truetype'), url("fonts/qlassikbold_tb_0-webfont.svg#qlassik_boldregular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'qlassik_medium';
+  src: url("fonts/qlassik_tb_0-webfont.eot");
+  src: url("fonts/qlassik_tb_0-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/qlassik_tb_0-webfont.woff") format('woff'), url("fonts/qlassik_tb_0-webfont.ttf") format('truetype'), url("fonts/qlassik_tb_0-webfont.svg#qlassik_mediumregular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+/* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-rocket:before {
+  content: "\e600";
+}
+.icon-star:before {
+  content: "\e601";
+}
+.icon-plus:before {
+  content: "\e602";
+}
+.icon-mail:before {
+  content: "\e603";
+}
+body {
+  background: #eaeaea !important;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.accordion .accordion-navigation > a,
+.accordion dd > a {
+  font-family: 'qlassik_bold' !important;
+  color: #474646;
+}
+.orbit-progress,
+.orbit-timer {
+  display: none !important;
+}
+.titulosSubtitulos {
+  font-size: 1.2em;
+  line-height: 1;
+}
+.titulosSubtitulos span {
+  display: block;
+  font-size: 0.7em;
+}
+.button {
+  padding: 10px 70px !important;
+  font-family: 'qlassik_bold' !important;
+  background: #87af3b !important;
+  font-size: 1.2em !important;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.button:hover {
+  background: #035b31 !important;
+}
+.secondButton {
+  background: #5fb3af !important;
+}
+.secondButton:hover {
+  background: #117571 !important;
+}
+a.enlace {
+  color: #87af3b;
+}
+a.enlace:hover {
+  color: #035b31;
+}
+.wrapper-header {
+  background: #87af3b;
+  border-bottom: 5px solid #035b31;
+  width: 100%;
+}
+.header {
+  background: #87af3b;
+  color: #fff;
+  padding: 10px 5px;
+}
+.header p {
+  margin-bottom: 0px;
+}
+.header p span {
+  padding-right: 5px;
+}
+.header img.logo {
+  width: 4em;
+  padding-top: 5px;
+  margin-top: -36px;
+  margin-right: 10px;
+}
+.header .infoHeader {
+  padding-top: 5px;
+}
+.header h1 {
+  color: #fff;
+  display: inline-block;
+  line-height: 1;
+  font-size: 1.5em;
+}
+.top {
+  background: url("../img/bg-top.gif") no-repeat;
+}
+.top.bgPaso2 {
+  background: url("../img/bg-top-paso2.gif") no-repeat;
+}
+.top.bgPaso3 {
+  background: url("../img/bg-top-paso3.gif") no-repeat;
+}
+.top img.imgTop {
+  width: 17em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.top img.imgTopB {
+  width: 9em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0;
+}
+.top .infoTop {
+  margin-left: 15em;
+  padding-top: 140px;
+  padding-bottom: 50px;
+}
+.top .infoTop p {
+  line-height: 1.2;
+  text-align: center;
+  color: #474646;
+  font-size: 1.1em;
+}
+.top h2 {
+  text-align: center;
+  color: #035b31;
+  font-size: 1.7em;
+}
+.top .registro {
+  width: 280px;
+  background: rgba(255,255,255,0.5);
+  padding: 20px;
+  text-align: center;
+}
+.top .registro h3 {
+  text-align: center;
+  color: #035b31;
+}
+.top .registro p.subtitulo {
+  margin-top: -15px;
+  font-size: 1.2em;
+  color: #87af3b;
+  margin-bottom: 0px;
+}
+.top .registro hr {
+  margin: 0 0 10px 0;
+}
+.top .registro label {
+  font-size: 1em;
+  text-align: left;
+}
+.top .registro input {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+}
+.top .registro input.button {
+  margin-top: 10px;
+}
+.top .registro .message,
+.top .registro .year {
+  display: none;
+}
+.innertop {
+  height: 120px;
+}
+.innertop div.firstDiv {
+  background: #035b31;
+}
+.innertop div h3 {
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1;
+  text-align: center;
+  padding-top: 30px;
+}
+.innertop div hr {
+  border-color: #87af3b;
+  margin: 0 auto;
+}
+.innertop div p {
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 1;
+  font-size: 1.2em;
+}
+.innertop div.comments {
+  background: #87af3b;
+}
+.innertop div.comments .contentComments .row {
+  margin-left: 30px;
+  padding-top: 20px;
+}
+.innertop div.comments .contentComments img {
+  width: 80%;
+  margin-top: -10px;
+}
+.innertop div.comments .contentComments p {
+  font-family: 'qlassik_medium';
+  font-size: 0.9em;
+}
+.innertop div.comments .contentComments p.info {
+  padding-top: 10px;
+}
+.innertop div.comments .contentComments p.nombrePersona {
+  padding-top: 20px;
+  text-align: left;
+  margin-left: -45px;
+  font-size: 1.2em;
+}
+.innertop div a.orbit-next span {
+  border-left-color: #035b31;
+}
+.innertop div a.orbit-next:hover {
+  border-left-color: #fff;
+  background: none;
+}
+.innertop div a.orbit-prev span {
+  border-right-color: #035b31;
+}
+.innertop div a.orbit-prev:hover {
+  border-right-color: #fff;
+  background: none;
+}
+.content {
+  background: #fff;
+}
+.content p {
+  color: #474646 !important;
+}
+.content dl .icono {
+  position: absolute;
+  left: 30px;
+  font-size: 12px !important;
+  margin-top: 2px;
+}
+.content dl a.titulosSubtitulos {
+  color: #035b31 !important;
+  font-size: 1.3em !important;
+  font-family: 'qlassik_bold' !important;
+  padding-left: 40px !important;
+}
+.content dl a.titulosSubtitulos span {
+  font-size: 0.8em;
+}
+.content .infoRed {
+  background: #efefef;
+}
+.content .infoRed a.conoceMasButton {
+  margin-top: 21px;
+}
+.content .mired {
+  text-align: center;
+}
+.content .mired h2 {
+  text-align: center;
+  font-size: 1.4em;
+  color: #035b31;
+}
+.content .mired p.subtitulo {
+  margin-top: -15px;
+  color: #035b31 !important;
+  font-size: 1.1em;
+}
+.content .mired ul {
+  list-style: none;
+}
+.content .mired ul li {
+  font-size: 1.1em;
+  color: #035b31;
+  text-align: left;
+}
+.content .mired img.noticiasImg {
+  width: 6em;
+  float: left;
+  padding: 9px;
+}
+.content .mired .quehacemos {
+  padding: 0 !important;
+}
+.innerbottom {
+  height: auto;
+}
+.innerbottom div.valor {
+  background: #035b31;
+  padding: 30px;
+}
+.innerbottom div .triangulobig {
+  position: absolute;
+  right: -56px;
+  z-index: 2;
+  top: 0;
+}
+.innerbottom div h3 {
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1;
+  text-align: center;
+}
+.innerbottom div hr {
+  border-color: #87af3b;
+  margin: 0 auto;
+}
+.innerbottom div p.subtitulo {
+  margin-bottom: 0;
+  text-align: center;
+  color: #d9f2cc;
+  line-height: 1;
+  font-size: 1em;
+  margin-top: -5px;
+}
+.innerbottom div.comments {
+  background: #87af3b;
+  text-align: center;
+}
+.innerbottom div.comments p {
+  padding-top: 40px;
+  font-size: 1.8em;
+  color: #035b31;
+}
+.innerbottom div.comments p span {
+  color: #fff;
+}
+.bottom {
+  background: #fff;
+  text-align: center;
+}
+.bottom h3 {
+  color: #035b31;
+}
+.bottom dl {
+  margin-top: -10px;
+}
+.bottom p {
+  line-height: 1;
+}
+.bottom .columns {
+  padding-top: 10px;
+}
+.bottom input,
+.bottom textarea {
+  width: auto !important;
+  vertical-align: top;
+}
+.bottom label {
+  font-size: 1em;
+  display: inline-block;
+  width: 8em;
+  text-align: left;
+}
+.bottom .celular {
+  display: none;
+}
+.bottom-b {
+  text-align: center;
+}
+.bottom-b p {
+  margin-bottom: 0px;
+}
+.bottom-b label {
+  font-size: 1em;
+  display: inline-block;
+}
+.bottom-b select {
+  display: inline-block;
+  width: 50%;
+}
+.bottom-b .triangulo-bottom-b {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bottom-b .titulosSubtitulos {
+  color: #035b31;
+}
+.bottom-b .titulosSubtitulos span {
+  font-size: 0.8em;
+  color: #474646;
+}
+.bottom-b .barranquilla,
+.bottom-b .bogota,
+.bottom-b .cartagena,
+.bottom-b .cali,
+.bottom-b .ibague,
+.bottom-b .manizales,
+.bottom-b .medellin,
+.bottom-b .palmira,
+.bottom-b .pasto,
+.bottom-b .pereira,
+.bottom-b .popayan,
+.bottom-b .sogamoso,
+.bottom-b .tulua {
+  display: none;
+}
+.footer {
+  padding: 20px;
+  color: #afafaf;
+  width: 100%;
+  background: #343535;
+  text-align: center;
+}
+@media screen and (max-width:1025px) {
+  .top img.imgTop {
+    width: 10em;
+  }
+  .top img.imgTopB {
+    left: 275px;
+  }
+  .top .infoTop {
+    margin-left: 10em;
+  }
+  .innertop div.comments .contentComments p.nombrePersona {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width:860px) {
+  .top .infoTop {
+    margin-left: 9em;
+  }
+}
+@media screen and (max-width:770px) {
+  .top img.imgTop,
+  .top img display none,
+  .top img.imgTopB {
+    display: none !important;
+  }
+  .top .infoTop {
+    margin-left: 0;
+  }
+  .innertop div.comments .contentComments .row {
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width:640px) {
+  .top .infoTop {
+    padding: 20px;
+  }
+  .top label {
+    color: #035b31;
+  }
+  .top .registro {
+    width: auto !important;
+    background: rgba(216,246,164,0.5);
+  }
+  .innerbottom .costoInversion {
+    margin-left: 0px !important;
+  }
+  h1 {
+    font-size: 1.3em !important;
+  }
+}

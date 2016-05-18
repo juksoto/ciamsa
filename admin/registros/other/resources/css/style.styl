@@ -1,0 +1,337 @@
+@import "nib"
+@import "font.styl"
+
+//generales
+verdeClaro=#87af3b
+verdeOscuro=#035b31
+grisOscuro=#474646
+
+body
+	background #eaeaea !important
+body, h1,h2,h3,h4,h5,h6,.accordion .accordion-navigation > a, .accordion dd > a
+	font-family: 'qlassik_bold' !important
+	color #474646
+.orbit-progress, .orbit-timer
+	display none !important
+.titulosSubtitulos
+	font-size 1.2em
+	line-height 1
+	& span
+		display block
+		font-size 0.7em 
+.button
+	padding 10px 70px !important
+	font-family 'qlassik_bold' !important
+	background verdeClaro !important
+	font-size 1.2em !important
+	border-radius 5px
+	&:hover
+		background verdeOscuro !important
+.secondButton
+	background #5FB3AF !important
+	&:hover
+		background #117571 !important
+a.enlace
+	color verdeClaro
+	&:hover
+		color verdeOscuro
+.wrapper-header
+	background verdeClaro
+	border-bottom: 5px solid verdeOscuro
+	width 100%
+.header
+	background verdeClaro
+	color white
+	padding 10px 5px
+	& p
+		margin-bottom 0px
+		& span
+			padding-right 5px
+	& img
+		&.logo
+			width 4em
+			padding-top 5px
+			margin-top -36px
+			margin-right 10px
+	& .infoHeader
+		padding-top 5px
+	& h1
+		color white
+		display inline-block
+		line-height 1
+		font-size 1.5em
+.top
+	background url("../img/bg-top.gif") no-repeat
+	&.bgPaso2
+		background url("../img/bg-top-paso2.gif") no-repeat
+	&.bgPaso3
+		background url("../img/bg-top-paso3.gif") no-repeat
+	& img
+		&.imgTop
+			width 17em
+			position absolute
+			bottom 0
+			left 0
+		&.imgTopB
+			width 9em
+			position absolute
+			bottom 0
+			right 0
+			top 0
+	& .infoTop
+		margin-left 15em
+		padding-top 140px
+		padding-bottom 50px
+		& p
+			line-height 1.2
+			text-align center
+			color grisOscuro
+			font-size 1.1em
+	& h2
+		text-align center
+		color verdeOscuro
+		font-size 1.7em
+	
+	& .registro
+		width 280px
+		background rgba(white,0.5)
+		padding 20px
+		text-align center
+		& h3
+			text-align center
+			color verdeOscuro
+		& p.subtitulo
+			margin-top -15px
+			font-size 1.2em
+			color verdeClaro
+			margin-bottom 0px
+		& hr
+			margin 0 0 10px 0
+		& label
+			font-size 1em
+			text-align left
+		& input
+			border-radius 5px
+			margin-bottom 0px
+			&.button
+				margin-top 10px
+		& .message, .year
+			display none
+.innertop
+	height 120px
+	& div
+		&.firstDiv
+			background verdeOscuro
+		& h3
+			color white
+			font-size 1.1em
+			line-height 1
+			text-align center
+			padding-top 30px
+		& hr
+			border-color verdeClaro
+			margin 0 auto
+		& p
+			margin-bottom 0
+			text-align center
+			color white
+			line-height 1
+			font-size 1.2em
+		&.comments
+			background verdeClaro
+			& .contentComments
+				& .row
+					margin-left 30px
+					padding-top 20px
+				& img
+					width 80%
+					margin-top -10px
+				& p
+					font-family 'qlassik_medium'
+					font-size 0.9em
+					&.info
+						padding-top 10px
+					&.nombrePersona
+						padding-top 20px
+						text-align left
+						margin-left -45px
+						font-size 1.2em
+		& a.orbit-next 
+			& span
+				border-left-color verdeOscuro
+			&:hover
+				border-left-color white
+				background none
+		& a.orbit-prev
+			& span
+				border-right-color verdeOscuro
+			&:hover
+				border-right-color white
+				background none
+.content
+	background #FFF
+	& p
+		color grisOscuro !important
+	& dl
+		& .icono
+			position absolute
+			left 30px
+			font-size 12px !important
+			margin-top 2px
+		& a.titulosSubtitulos 
+			color verdeOscuro !important
+			font-size 1.3em !important
+			font-family 'qlassik_bold' !important
+			padding-left 40px !important
+			& span
+				font-size 0.8em
+	& .infoRed
+		background #efefef
+		& a.conoceMasButton
+			margin-top 21px
+	& .mired
+		text-align center
+		& h2 
+			text-align center
+			font-size 1.4em
+			color verdeOscuro
+		& p.subtitulo
+			margin-top -15px
+			color verdeOscuro !important
+			font-size 1.1em
+		& ul
+			list-style none
+			& li
+				font-size 1.1em
+				color verdeOscuro
+				text-align left
+		& img.noticiasImg
+			width 6em
+			float left
+			padding 9px
+		& .quehacemos
+			padding 0 !important
+.innerbottom
+	height auto
+	& div
+		&.valor
+			background verdeOscuro
+			padding 30px
+		& .triangulobig
+			position absolute
+			right -56px
+			z-index 2
+			top 0
+		& h3
+			color white
+			font-size 1.5em
+			line-height 1
+			text-align center
+		& hr
+			border-color verdeClaro
+			margin 0 auto
+		& p.subtitulo
+			margin-bottom 0
+			text-align center
+			color #d9f2cc
+			line-height 1
+			font-size 1em
+			margin-top -5px
+		&.comments
+			background verdeClaro
+			text-align center
+			& p
+				padding-top 40px
+				font-size 1.8em
+				color verdeOscuro
+				& span
+					color white
+.bottom
+	background #FFF
+	text-align center
+	& h3 
+		color verdeOscuro
+	& dl
+		margin-top -10px
+	& p
+		line-height 1
+	& .columns
+		padding-top 10px
+	& input, textarea
+		width auto !important
+		vertical-align top
+	& label
+		font-size 1em
+		display inline-block
+		width 8em
+		text-align left
+	& .celular
+		display none
+.bottom-b
+	text-align center
+	& p
+		margin-bottom 0px
+	& label 
+		font-size 1em
+		display inline-block
+	& select
+		display inline-block
+		width 50%
+	& .triangulo-bottom-b
+		position absolute
+		top 0
+		right 0
+	& .titulosSubtitulos
+		color verdeOscuro
+		& span
+			font-size 0.8em
+			color grisOscuro
+	& .barranquilla, .bogota, .cartagena, .cali, .ibague, .manizales, .medellin, .palmira, .pasto, .pereira, .popayan, .sogamoso, .tulua
+		display none		
+.footer
+	padding 20px
+	color #afafaf
+	width 100%
+	background #343535
+	text-align center
+@media screen and (max-width:1025px)
+	.top
+		& img
+			&.imgTop
+				width 10em
+			&.imgTopB
+				left 275px
+		& .infoTop
+			margin-left 10em
+	.innertop div.comments .contentComments p.nombrePersona
+		margin-left 0
+
+@media screen and (max-width:860px)
+	.top
+		& .infoTop
+			margin-left 9em
+@media screen and (max-width:770px)
+	.top
+		& img
+			&.imgTop,
+				display none !important
+			&.imgTopB
+				display none !important
+		& .infoTop
+			margin-left 0
+	.innertop div.comments .contentComments .row
+		padding-top 5px
+@media screen and (max-width:640px)
+	.top
+		& .infoTop
+			padding 20px
+		& label
+			color verdeOscuro
+		& .registro
+			width auto !important
+			background rgba(216, 246, 164, 0.5)
+	.innerbottom
+		& .costoInversion
+				margin-left 0px !important
+	h1
+		font-size 1.3em !important
