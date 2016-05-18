@@ -126,8 +126,16 @@ redirectSend();
 <script src="assets/js/vendor/jquery.js"></script>
 <script src="assets/js/vendor/what-input.js"></script>
 <script src="assets/js/foundation.min.js"></script>
+<script src="vendors/away/jquery.away.js"></script>
 <script>
     $(document).foundation();
+</script>
+<script>
+    $(document).ready(function(){
+        $.idle(60, function() {
+            window.location.href = "index.php";
+        });
+    });
 </script>
 
 </body>

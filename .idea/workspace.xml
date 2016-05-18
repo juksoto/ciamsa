@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12636341-b4f5-41e1-9459-f62d5b34ac7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/animate/animate_index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo-ciamsa.png" afterPath="$PROJECT_DIR$/images/logo-ciamsa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/producto_nutrir_su_cultivo.png" afterPath="$PROJECT_DIR$/images/producto_nutrir_su_cultivo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/layout/form.php" afterPath="$PROJECT_DIR$/admin/layout/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.styl" afterPath="$PROJECT_DIR$/assets/css/style.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cotizar.php" afterPath="$PROJECT_DIR$/cotizar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/modal.php" afterPath="$PROJECT_DIR$/includes/modal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/scripts.php" afterPath="$PROJECT_DIR$/includes/scripts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/list_departamentos.php" afterPath="$PROJECT_DIR$/layout/list_departamentos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/list_etapas_form.php" afterPath="$PROJECT_DIR$/layout/list_etapas_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/list_etapas_images.php" afterPath="$PROJECT_DIR$/layout/list_etapas_images.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/listo_cultivo_form.php" afterPath="$PROJECT_DIR$/layout/listo_cultivo_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step-end.php" afterPath="$PROJECT_DIR$/step-end.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step-one.php" afterPath="$PROJECT_DIR$/step-one.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step-three.php" afterPath="$PROJECT_DIR$/step-three.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step-two.php" afterPath="$PROJECT_DIR$/step-two.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendors/send/app.php" afterPath="$PROJECT_DIR$/vendors/send/app.php" />
     </list>
     <ignored path="ciamsa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,15 +60,35 @@
       <file leaf-file-name="step-three.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/step-three.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="734">
+              <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modal.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="step-two.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/step-two.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/modal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/head.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -102,60 +107,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cotizar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cotizar.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+            <state relative-caret-position="469">
+              <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_departamentos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/list_departamentos.php">
+      <file leaf-file-name="step-end.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/step-end.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-              <folding>
-                <marker date="1463518356795" expanded="true" signature="14:58" placeholder="SELECT * FRO... departamentos" />
-              </folding>
+            <state relative-caret-position="717">
+              <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="136" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_etapas_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/list_etapas_form.php">
+      <file leaf-file-name="step-one.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/step-one.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding>
-                <marker date="1463518461573" expanded="true" signature="14:59" placeholder="SELECT * FRO... etapas_cultivo" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listo_cultivo_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/listo_cultivo_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-              <folding>
-                <marker date="1463518382135" expanded="true" signature="14:57" placeholder="SELECT * FRO... tipo_cultivo" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_etapas_images.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/list_etapas_images.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-              <folding>
-                <marker date="1463515863523" expanded="true" signature="14:59" placeholder="SELECT * FRO... etapas_cultivo" />
-              </folding>
+            <state relative-caret-position="726">
+              <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,12 +170,7 @@
         <option value="$PROJECT_DIR$/includes/nav.php" />
         <option value="$PROJECT_DIR$/includes/head.php" />
         <option value="$PROJECT_DIR$/includes/helpers.php" />
-        <option value="$PROJECT_DIR$/step-end.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/step-one.php" />
-        <option value="$PROJECT_DIR$/step-two.php" />
         <option value="$PROJECT_DIR$/layout/list_etapas_images.php" />
-        <option value="$PROJECT_DIR$/step-three.php" />
         <option value="$PROJECT_DIR$/layout/animate/animate_index.php" />
         <option value="$PROJECT_DIR$/admin/layout/form.php" />
         <option value="$PROJECT_DIR$/cotizar.php" />
@@ -208,6 +180,11 @@
         <option value="$PROJECT_DIR$/vendors/send/app.php" />
         <option value="$PROJECT_DIR$/includes/scripts.php" />
         <option value="$PROJECT_DIR$/includes/modal.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/step-end.php" />
+        <option value="$PROJECT_DIR$/step-three.php" />
+        <option value="$PROJECT_DIR$/step-two.php" />
+        <option value="$PROJECT_DIR$/step-one.php" />
       </list>
     </option>
   </component>
@@ -351,12 +328,12 @@
       <workItem from="1463414798861" duration="48212000" />
       <workItem from="1463491293125" duration="13922000" />
       <workItem from="1463511825482" duration="5917000" />
-      <workItem from="1463525561902" duration="1097000" />
+      <workItem from="1463525561902" duration="2319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69148000" />
+    <option name="totallyTimeSpent" value="70370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -401,6 +378,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -422,6 +400,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2057">
           <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="126" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -436,6 +415,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2227">
           <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -451,6 +431,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,6 +505,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="53" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -531,6 +513,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="28" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -599,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layout/list_cultivo_icon.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -645,34 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step-end.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step-one.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="91" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/step-two.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="89" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -786,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layout/modalReferencia.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -805,18 +745,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/step-three.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="42" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/modal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step-end.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="136" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step-three.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step-two.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step-one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
           <folding />
         </state>
       </provider>

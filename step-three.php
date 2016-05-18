@@ -102,6 +102,7 @@ redirectThree();
 <script src="assets/js/vendor/jquery.js"></script>
 <script src="assets/js/vendor/what-input.js"></script>
 <script src="assets/js/foundation.min.js"></script>
+<script src="vendors/away/jquery.away.js"></script>
 <?php require 'includes/scripts.php' ?>
 <script>
     $(document).foundation();
@@ -110,6 +111,10 @@ redirectThree();
     $(document).ready(function(){
         <?php require 'layout/animate/animate_index.php' ?>
         animateStepThree();
+        
+        $.idle(60, function() {
+            window.location.href = "index.php";
+        });
     });
 </script>
 </body>
