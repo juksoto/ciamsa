@@ -78,7 +78,7 @@ redirectThree();
     <section class="row bottom">
         <section class="small-12 column text-center">
             <a href="cotizar.php">
-                <img data-interchange="[images/ads/solucion-uan-w-m.jpg, small], [images/ads/solucion-uan-w-m.jpg, medium], [images/ads/solucion-uan-w.jpg, large]"  alt="Forkamix a la medida" >
+                <img data-interchange="[images/ads/nitroeffi-m.jpg, small], [images/ads/nitroeffi-m.jpg, medium], [images/ads/nitroeffi.jpg, large]"  alt="Forkamix a la medida" >
             </a>
         </section>
     </section>

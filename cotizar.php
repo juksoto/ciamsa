@@ -81,7 +81,7 @@ require 'config/conexion.php';
                                 </label>
                             </article>
                             <article class="small-8  medium-9 columns">
-                                <input type="text" name="empresa" required class="form-control">
+                                <input type="text" name="empresa" class="form-control">
                             </article>
                         </section>
                         <!-- End Empresa -->
@@ -121,7 +121,7 @@ require 'config/conexion.php';
                                 </label>
                             </article>
                             <article class="small-8  medium-9 columns">
-                                <input type="text" name="telefono" required class="form-control">
+                                <input type="text" name="telefono"  class="form-control">
                             </article>
                         </section>
                         <!-- End Telefono -->
@@ -207,7 +207,7 @@ require 'config/conexion.php';
 
     <section class="row bottom">
         <section class="small-12 column text-center">
-            <img data-interchange="[images/ads/forkamix-mezclas-medidas-w-m.jpg, small], [images/ads/forkamix-mezclas-medidas-w-m.jpg, medium], [images/ads/forkamix-mezclas-medidas-w.jpg, large]"  alt="Forkamix a la medida" >
+            <img data-interchange="[images/ads/nitroeffi-m.jpg, small], [images/ads/nitroeffi-m.jpg, medium], [images/ads/nitroeffi.jpg, large]"  alt="Forkamix a la medida" >
         </section>
     </section>
     <!-- End  Bottom -->

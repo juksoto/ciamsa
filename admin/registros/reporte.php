@@ -1,7 +1,13 @@
 <?php 
- $conexion = mysql_connect("localhost", "root", "");
- mysql_select_db ("ciamsa", $conexion);  
+if ($_POST)
+{
+   $conexion = mysql_connect("localhost", "cube2med_user", "Medios2016@");
+ mysql_select_db ("cube2med_ciamsa", $conexion);  
 mysql_query("set names 'utf8'");
+
+$totalRangos = $_POST['cantRegistros'];
+$rangos= explode("|", $totalRangos);
+
 $sql = "
     SELECT 
         c.cultivo,
@@ -22,9 +28,15 @@ $sql = "
       departamentos d
     ON
       u.departamentos_id = d.id
+    WHERE
+     u.id >= $rangos[0] 
+     AND 
+     u.id <= $rangos[1]
      ORDER BY
-     u.fecha ASC
-    ";
+     u.fecha ASC";
+
+
+
  $resultado = mysql_query ($sql, $conexion) or die (mysql_error ());
  $registros = mysql_num_rows ($resultado);
  
@@ -165,3 +177,4 @@ $objWriter=PHPExcel_IOFactory::createWriter($objPHPExcel,'Excel2007');
 $objWriter->save('php://output');
 exit;
 mysql_close ();
+}

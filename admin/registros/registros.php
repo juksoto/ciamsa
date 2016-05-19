@@ -1,3 +1,18 @@
+<?php 
+	require '../include/conexion.php';
+
+	if ($result = $mysqli->query("SELECT * FROM usuario")) {
+
+	    /* determinar el número de filas del resultado */
+	    $row_cnt = $result->num_rows;
+
+	    /* cerrar el resultset */
+	    $result->close();
+
+	}
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,13 +23,91 @@
         <link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/foundation.css" />
 		<script src="js/vendor/modernizr.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+
 </head>
 <body class="mostrarDatos">
 	<header>
 	<h1 >Registros Aplicacion</h1>
 	<header>
-	<div class="settings row" style="text-align:center"> <a href="reporte.php" style="color:white"><p style="display:inline-block; padding-right:50px">
-		<img src="img/ico-download.png" width="40" />Descargar</p></a> </div>
+	<section class="row">
+		<section class="small-12 medium-8 columns medium-centered">
+			<form action="reporte.php" method ="post">
+				<section class="small-3 columns">
+					Seleccione un rango
+				</section>
+				<section class="small-6 columns">
+
+					<select name="cantRegistros" id=""  <?php if ($row_cnt == 0) { echo 'disabled="disabled"' ; } ?> required>	
+						<option value=""> Seleccione el rango </option>
+							<?php
+
+								$bloqueRango = 500;
+							
+								//cantidad de bloques
+								if ($row_cnt > $bloqueRango)
+								{
+									$cantidadBloques = ceil($row_cnt / $bloqueRango);
+									
+									for ( $i = 0; $i < $cantidadBloques; $i++)
+									{
+										$rangoIni = ($bloqueRango * $i) + 1;
+										
+										//  Si es el ultimo rango
+										if ($i == ($cantidadBloques - 1 ) )
+										{
+											$rangoFinal = $row_cnt;
+										}
+										else
+										{
+											$rangoFinal = ($rangoIni + $bloqueRango) - 1 ;	
+										}
+
+										?> 
+										<option value="<?php echo $rangoIni . "|" . $rangoFinal ?>"> <?= $rangoIni . " a " . $rangoFinal ?> </option>
+									
+										<?php	
+
+									}
+									
+									echo $cantidadBloques;
+								}
+								else
+								{
+									$rangoIni = 1;
+									$rangoFinal = $row_cnt;
+									?>
+									<option value="<?php echo $rangoIni . "|" . $rangoFinal ?>"> <?= $rangoIni . " a " . $rangoFinal ?> </option>
+									<?php
+								}
+
+
+							 ?>
+						
+					</select>
+				</section>
+				<section class="small-3 columns text-left">
+					<button type="submit" class="btn" <?php if ($row_cnt == 0) { echo 'disabled="disabled"' ; } ?> > Descargar</button>
+				</section>
+			</form>
+		</section>
+	</section>
+
+	<section class="settings row" style="text-align:center"> 
+		<section class="small-12 medium-6 columns text-center medium-centered">
+			<p>
+			<?php 
+			    printf("Hay %d registros en total \n", $row_cnt);
+			?>
+			</p>
+		</section>
+	</section>
+	
+			
+<section class="row ">
+	<section class="small-12 columns">
+		
+
 <table align="center" style="margin:0 auto">
   <thead>
     <tr style="background:#eeeeee">
@@ -36,8 +129,6 @@
   </thead>
   <tbody>
   	<?php 
-		require '../include/conexion.php';
-
 	$sql = "
     SELECT 
         c.cultivo,
@@ -59,7 +150,7 @@
     ON
       u.departamentos_id = d.id
      ORDER BY
-     u.fecha ASC
+     u.fecha DESC
     ";
 		 if ($result = $mysqli -> query ($sql) ) {
 
@@ -71,54 +162,50 @@
 		            while ($R = $result -> fetch_array())
 		            {
 		                   ?>
-		        <tr>
-		            <td>
-		                <?= $R["id"] ?>
-		            </td>
-		            <td>
-		                <?= $R["fecha"] ?>
-		            </td>
-		            <td>
-		                <?= $R["nombre"] ?>
-		            </td>
-		            <td>
-		                <?= $R["correo"] ?>
-		            </td>
-		            <td>
-		                <?= $R["departamento"] ?>
-		            </td>
-		            <td>
-		                <?= $R["ciudad"] ?>
-		            </td>
-		            <td>
-		                <?= $R["telefono"] ?>
-		            </td>
-		            <td>
-		                <?= $R["celular"] ?>
-		            </td>
-		            <td>
-		                <?= $R["cultivo"] ?>
-		            </td>
-		            <td>
-		                <?= $R["etapas"] ?>
-		            </td>
-		            <td>
-		                <?= $R["empresa"] ?>
-		            </td>
-		             <td>
-		                <?= $R["fertilizante"] ?>
-		            </td>
-		             <td>
-		                <?= $R["informacion"] ?>
-		            </td>
-		        </tr>
+				       		 <tr>
+					            <td>
+					                <?= $R["id"] ?>
+					            </td>
+					            <td>
+					                <?= $R["fecha"] ?>
+					            </td>
+					            <td>
+					                <?= $R["nombre"] ?>
+					            </td>
+					            <td>
+					                <?= $R["correo"] ?>
+					            </td>
+					            <td>
+					                <?= $R["departamento"] ?>
+					            </td>
+					            <td>
+					                <?= $R["ciudad"] ?>
+					            </td>
+					            <td>
+					                <?= $R["telefono"] ?>
+					            </td>
+					            <td>
+					                <?= $R["celular"] ?>
+					            </td>
+					            <td>
+					                <?= $R["cultivo"] ?>
+					            </td>
+					            <td>
+					                <?= $R["etapas"] ?>
+					            </td>
+					            <td>
+					                <?= $R["empresa"] ?>
+					            </td>
+					             <td>
+					                <?= $R["fertilizante"] ?>
+					            </td>
+					             <td>
+					                <?= $R["informacion"] ?>
+					            </td>
+				        </tr>
 		        <?php
 		            }
 		        }
-		        else{
-		            echo "No hay registros";
-		        }
-
 		        /* cerrar el resultset */
 		        $result -> close();
 		    }
@@ -129,6 +216,10 @@
 ?>
   </tbody>
 </table>
+
+	</section>
+</section>
+	
 <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script> $(document).foundation();</script>

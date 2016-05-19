@@ -23,21 +23,31 @@
 		<!-- end NAV -->
 		<!-- content -->
 		<section class="content">
+			<?php require 'includes/modalIndex.php' ?>
+
 			<!-- Logos -->
 			<section class="row hide-for-small-only">
 				<section class="small-10 small-centered column text-center">
 					<ul class="row small-up-2 medium-up-4 list-logo" >
-					  <li class="column text-center">
-						  	<img src="images/logo_forkamix.png" alt="Forkamix">
+					  <li class="column text-center" data-name="forkamix">
+						  <a data-open="productosModal" class="btnProductos" >
+							  <img src="images/logo_forkamix.png" alt="Forkamix">
+						  </a>
 					  </li>
-					  <li class="column text-center">
+					  <li class="column text-center" data-name="nutrikimia">
+						  <a data-open="productosModal" class="btnProductos" >
 						  	<img src="images/logo_nutrikimia.png" alt="Nutrikimia">
+						  </a>
 					  </li>
-					  <li class="column text-center">
+					  <li class="column text-center"  data-name="nitroeffi">
+						  <a data-open="productosModal" class="btnProductos">
 						  	<img src="images/logo_nitroeffi.png" alt="Nitro Effi100">
+						  </a>
 					  </li>
-					  <li class="column text-center">
+					  <li class="column text-center" data-name="solucionuan">
+						  <a data-open="productosModal" class="btnProductos" >
 						  	<img src="images/logo_solucion_uan.png" alt="Solucion UAN">
+						  </a>
 					  </li>
 					</ul>
 				</section>
@@ -79,17 +89,25 @@
 			<section class="row show-for-small-only">
 				<section class="small-12 small-centered column text-center">
 					<ul class="row small-up-2  list-logo-small" >
-						<li class="column text-center">
-							<img src="images/logo_forkamix.png" alt="Forkamix">
+						<li class="column text-center" data-name="forkamix">
+							<a data-open="productosModal" class="btnProductos" >
+								<img src="images/logo_forkamix.png" alt="Forkamix">
+							</a>
 						</li>
-						<li class="column text-center">
-							<img src="images/logo_nutrikimia.png" alt="Nutrikimia">
+						<li class="column text-center" data-name="nutrikimia">
+							<a data-open="productosModal" class="btnProductos" >
+								<img src="images/logo_nutrikimia.png" alt="Nutrikimia">
+							</a>
 						</li>
-						<li class="column text-center">
-							<img src="images/logo_nitroeffi.png" alt="Nitro Effi100">
+						<li class="column text-center"  data-name="nitroeffi">
+							<a data-open="productosModal" class="btnProductos">
+								<img src="images/logo_nitroeffi.png" alt="Nitro Effi100">
+							</a>
 						</li>
-						<li class="column text-center">
-							<img src="images/logo_solucion_uan.png" alt="Solucion UAN">
+						<li class="column text-center" data-name="solucionuan">
+							<a data-open="productosModal" class="btnProductos" >
+								<img src="images/logo_solucion_uan.png" alt="Solucion UAN">
+							</a>
 						</li>
 					</ul>
 				</section>
@@ -109,13 +127,20 @@
 	<footer class="row expanded">
 		<section class="small-12 text-center">
 			<p>
-				Desarrollo por Innova Corporación S.A.S
+				Una solución de <a href="http://innovalamarca.com/"> INNOVABRAND</a>
 			</p>
 		</section>
 	</footer>
+
+	<form action="layout/modalIndex.php?:VALUE_ID" method="post" id="formIndex">
+
+	</form>
+
     <script src="assets/js/vendor/jquery.js"></script>
     <script src="assets/js/vendor/what-input.js"></script>
     <script src="assets/js/foundation.min.js"></script>
+
+	<?php require 'includes/scripts.php' ?>
     <script>
       $(document).foundation();
     </script>

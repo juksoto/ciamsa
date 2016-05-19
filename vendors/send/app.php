@@ -2,19 +2,17 @@
 	require("class.phpmailer.php");
     $mail = new PHPMailer();
 	if($_POST){
-
-		$nombre         = $_POST['nombre'];
-		$correo         = $_POST['email'];
-		$departamento   = $_POST['departamento'];
-		$ciudad         = $_POST['ciudad'];
-		$telefono       = $_POST['telefono'];
-		$celular        = $_POST['celular'];
-		$tipo_cultivo   = $_POST['tipo_cultivo'];
-        $etapa_cultivo  = $_POST['etapa_cultivo'];
-        $empresa        = $_POST['empresa'];
-        $forkamix       = $_POST['forkamix'];
-        $mensaje        = $_POST['mensaje'];
-
+        if (isset($_POST['nombre'])){$nombre                = $_POST['nombre'];}else{ $nombre                = null;}
+        if (isset($_POST['email'])){$correo                 = $_POST['email'];}else{ $correo                 = null;}
+        if (isset($_POST['departamento'])){$departamento    = $_POST['departamento'];}else{ $departamento    = null;}
+        if (isset($_POST['ciudad'])){$ciudad                = $_POST['ciudad'];}else{ $ciudad                = null;}
+        if (isset($_POST['telefono'])){$telefono            = $_POST['telefono'];}else{ $telefono            = null;}
+        if (isset($_POST['celular'])){$celular              = $_POST['celular'];}else{ $celular              = null;}
+        if (isset($_POST['tipo_cultivo'])){$tipo_cultivo    = $_POST['tipo_cultivo'];}else{ $tipo_cultivo    = null;}
+        if (isset($_POST['etapa_cultivo'])){$etapa_cultivo  = $_POST['etapa_cultivo'];}else{ $etapa_cultivo  = null;}
+        if (isset($_POST['empresa'])){$empresa              = $_POST['empresa'];}else{ $empresa              = null;}
+        if (isset($_POST['forkamix'])){$forkamix            = $_POST['forkamix'];}else{ $forkamix            = null;}
+        if (isset($_POST['mensaje'])){$mensaje              = $_POST['mensaje'];}else{ $mensaje              = null;}
 
         //separamos
         $depto = explode("|", $departamento);
@@ -117,3 +115,4 @@
 				header ('location:'.$_server['HTTP_REFERER']);
 		}
 ?>
+

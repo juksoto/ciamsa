@@ -44,4 +44,17 @@
         
         });
     });
+    $('.btnProductos').click(function (e) {
+        e.preventDefault();
+        $("#response-modalProductos").html("<p>Buscando...</p>");
+
+        var row = $(this).parents('li');
+        var name = row.data('name');
+
+        $url = 'images/productos_description/' + name + ".jpg";
+
+        $('#img_producto').attr("src",$url);
+
+
+    });
 </script>
